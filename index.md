@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://github.com/ZerooVector/ZerooVector.github.io/images/sunyuhao.jpg" class="floatpic" width="360" height="360">
+<img src="https://github.com/ZerooVector/ZerooVector.github.io/tree/main/images/sunyuhao.jpg" class="floatpic" width="360" height="360">
 
 
 这里是孙宇皓(我的一个常用ID是 @林焓是猫猫)，一名北京理工大学计算机学院本科生，目前就读于人工智能专业。我对应用数学和理论物理感兴趣，因此这个主页会不定期上传各种学习笔记，作为对自己学习历程的记录，同时也用于回顾知识。我预计于2025年6月从北京理工大学毕业，并将于2025年9月加入北京大学前沿交叉研究院(PKU AAIS)攻读博士学位。我十分期望与各种各样的人交流（无论是讨论知识，还是随意聊天）。如果你对我的某一方面感兴趣，欢迎发邮件到*lh13210817312@gmail.com*。
