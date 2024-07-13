@@ -6,8 +6,8 @@ url: https://sunyuhao.com
 # Owner/author information
 owner:
   name: Yuhao Sun
-  avatar: hanlin.jpg
-  bio: Two roads diverged in woods, I took the one less traveled by.
+  avatar: sunyuhao.png
+  bio: 寄身于天地漫漫，未知永远比已知浩瀚。
   # email: hanlin.cai@ieee.org
   # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -37,16 +37,7 @@ owner:
 links:
   - title: About Me
     url: /
-  - title: Teams
-    url: /teams/
-  - title: Publications
-    url: /publications/
-  - title: Awards
-    url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  - title: Blogs
-    url: /blogs/
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
@@ -78,7 +69,7 @@ kramdown:
 
 # disqus settings:
 disqus:
-  shortname: lancecai
+  shortname: yhs
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]

@@ -4,46 +4,34 @@ layout: page
 
 # About Me
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" width="360" height="480">
+<img src="https://github.com/ZerooVector/ZerooVector.github.io/tree/main/images/sunyuhao.png" class="floatpic" width="360" height="480">
 
-Here is **Hanlin Cai (Lance, 蔡汉霖)**.
 
-I am a senior undergrad majoring in EECS at Fuzhou University and Maynooth University (Combined degrees). Currently, I serve as a research assistant at the IIoT-Lab, advised by [Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu) and [Dr. Meng Yuan](https://www.researchgate.net/profile/Meng-Yuan-4). I also spent a lovely summer research program with [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) at Cambridge University. Recently, I have been selected as an **AAAI UC Scholar**.
+这里是孙宇皓(我的一个常用ID是 @林焓是猫猫)，一名北京理工大学计算机学院本科生，目前就读于人工智能专业。我对应用数学和理论物理感兴趣，因此这个主页会不定期上传各种学习笔记，作为对自己学习历程的记录，同时也用于回顾知识。我预计于2025年6月从北京理工大学毕业，并将于2025年9月加入北京大学前沿交叉研究院(PKU AAIS)攻读博士学位。我十分期望与各种各样的人交流（无论是讨论知识，还是随意聊天）。如果你对我的某一方面感兴趣，欢迎发邮件到*lh13210817312@gmail.com*。
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *hanlin[dot]cai[at]ieee[dot]org*
-
-## Academic Background
-
-- **Sep 2024 - Future：**Cambridge University (Incoming EE MPhil, supervised by [Prof. Ozgur B. Akan](https://ioe.eng.cam.ac.uk/directory/akan))
-- **Sep 2020 - June 2024:** Maynooth University (BSc, EECS)
-- **Sep 2020 - June 2024:** Fuzhou University (BEng, EECS)
-- **June 2022 - Nov 2022:** Cambridge University (Internship)
-
----
 
 ## Research Interests
 
-- Internet of Everything
-- Cyber-Physical System
-- Industrial Informatics
-- Applied Machine Learning
-- [My latest research proposal (Dec 2023)](https://caihanlin.com/file/proposal-2023.pdf)🔗
+我认为我最重要的追求是“更多、更深刻地理解世界”。因此，相比于进行工程项目，我更希望探究科学问题。目前我的学习和研究兴趣主要集中在：
 
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the **Machine Learning** and its applications in **Industrial IoT**. In a word, advanced technologies like ML and IoT positively influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
+- **理论物理**：理论物理借助于数学语言(因为数学语言可以较为精确地表述逻辑)对世界进行建模，并期待模型可以解释实验中观测到的主要现象，并且能在一定程度上对新现象做出预测。目前我学习过理论力学和平衡态统计力学，正在学习电动力学和量子力学（在这个暑假中，我主要在学习电动力学。我会不定期地发布电动力学的学习笔记，我的参考书是Griffiths的《电动力学导论》）。
+- **AI for Science**：科学的许多进步来源于新工具的出现。我们期待强大的AI工具可以帮助我们解决化学、生物学、社会科学等研究复杂系统的学科(我的意思是，这些学科研究度对象远比物理学复杂)中的关键问题。
+- **应用数学**：我认为应用数学和理论物理承担了几乎相同的职能。我的研究方向主要集中在随机分析和随机动力系统。
+
+
+
+## Hobbies
+
+这里列出我除了以上研究兴趣之外的爱好：
+
+- **Minecraft(我的世界)**：我喜欢高自由度的沙盒游戏，在这个游戏中，我最喜欢的玩法是包含大量模组的整合包。目前我正在游玩FTB Skies，一旦我通关此整合包，我将在这里发布存档。
+- **阅读一些有趣的文字**：在闲暇时候我会随机阅读有趣的文字，包括但不限于各种社科类书籍、小说、散文集等等。
+- **非典型的推理谜题**：我将“典型的”推理定义为以找出凶手、还原杀人手法为目的的侦探小说或剧本杀。相反地，我对一些“非典型”推理感兴趣，包括但不限于规则类怪谈和无限流网络小说。
+
+除此之外，我计划在下学期试图运营北京理工大学物理爱好者协会-研学部。我希望能够站在讲台上，分享一些知识，同时加深自己的理解。
+
 
 ---
 
-## News and Updates
 
-- **May 2024：**My undergraduate thesis won the Best Project Award (Top 1/300) 🎉
-- **April 2024：**Our work *BLEGuard* has been accepted to [MobiSys 2024](https://www.sigmobile.org/mobisys/2024/) as a poster paper. See you in Japan!
-- **March 2024：**Very excited to get a MPhil offer from Engineering department at Cambridge University!
-- **Dec 2023：**Very excited to be selected as [AAAI-24 UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/). See you in Canada!
-- **Dec 2023：**Got a MSc offer from the physics department of Imperial College London.
-- **Aug 2023：**Happy to be awarded the FEPG Scholarship.
-- **May 2023：**Happy to be awarded the XiamenAir Scholarship.
-- **May 2023：**Collected the Finalist Award in MCM 2023 (Top 1%).
-- **Jun 2022：**Started research programme at [Cambridge AI Group](https://www.cl.cam.ac.uk/research/ai/), advised by Prof. Pietro Liò.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to be an AAAI-UC Scholar at <a href="https://twitter.com/hashtag/AAAI24?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI24</a>, thanks to <a href="https://twitter.com/hashtag/AAAI?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI</a> &amp; <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> for the sponsorship. Grateful for the knowledge gained and new friendships formed.<br><br>Wonderful trip in Vancouver. Looking forward to staying connected with all.<a href="https://twitter.com/hashtag/AAAI24?src=hash&amp;ref_src=twsrc%5Etfw">#AAAI24</a> <a href="https://twitter.com/hashtag/Vancouver?src=hash&amp;ref_src=twsrc%5Etfw">#Vancouver</a> <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&amp;ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> <a href="https://t.co/wUQUp8XlSM">pic.twitter.com/wUQUp8XlSM</a></p>&mdash; Hanlin CAI (seeking a PhD position 2025) (@lancecai2002) <a href="https://twitter.com/lancecai2002/status/1762210025173344260?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
