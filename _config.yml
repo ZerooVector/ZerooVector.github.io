@@ -37,6 +37,10 @@ owner:
 links:
   - title: About Me
     url: /
+  - title: notes
+    url: /notes/
+  - title: blogs
+    url: /blogs/
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
