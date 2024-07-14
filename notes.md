@@ -17,4 +17,4 @@ title: Notes
 
 这里是将Obsidian Vault中细碎的笔记拼接、整理后形成的按照章节书写的笔记。
 
-
+- 正在完成的电动力学笔记：[电动力学笔记](https://zeroovector.github.io/notes/electrodynamics)
