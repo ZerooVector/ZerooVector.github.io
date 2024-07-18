@@ -14,7 +14,7 @@ title: Notes of ElectroDynamics
 
 - 电磁场的能动量：为什么两个运动的电荷“违反”牛三律？[PART-2](https://zeroovector.github.io/notes/electrodynamics_pdf/electrodynamics-2.pdf)
 
-- 电磁波的传播：迷失在城市中多彩的霓虹 [PART-3](https://zeroovector.github.io/notes/electrodynamics_pdf/electrodynamics-3.pdf)
+- 电磁波的传播：迷失于城市中多彩的霓虹 [PART-3](https://zeroovector.github.io/notes/electrodynamics_pdf/electrodynamics-3.pdf)
 
 - 规范变换和推迟势：如何计算时变电荷、电流激发的场？[PART-4](https://zeroovector.github.io/notes/electrodynamics_pdf/electrodynamics-4.pdf)
 
