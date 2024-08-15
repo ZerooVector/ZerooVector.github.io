@@ -60,7 +60,7 @@ $$V_{i+1}(x_{i+1}) = \max[y(x_1,x_2,\cdots,x_{i+1}),\mathbb{E}[V_{i+2}(X_{i+2})]
 
 
 记$P_r$为选取阈值为$r$时，选择到最优秘书的概率，现在只需优化$P_r$。直接计算：
-$$\begin{align*}P_r  &= \sum_{i=r}^n P(\text{第}i\text{位秘书能力最佳且被选择})  \\ &= \sum_{i=r}^n  P(\text{第}i\text{位秘书能力最佳}) \cdot P(\text{第}i\text{位秘书被选择}|\text{第}i\text{位秘书能力最佳})  \\  &=  P(\text{第}i\text{位秘书能力最佳}) \cdot  \sum_{i=r}^n   P(\text{前}i-1\text{位中能力最佳的秘书出现在前}r-1\text{位中}) \\ &=  \sum_{i=r}^n \dfrac{1}{n} \cdot  \dfrac{r-1}{i-1}  = \dfrac{n-1}{n} \sum_{i=r}^n \dfrac{1}{i-1}\end{align*}$$
+$$\begin{align*}P_r  &= \sum_{i=r}^n P(\text{第}i\text{位秘书能力最佳且被选择})  \\ &= \sum_{i=r}^n  P(\text{第}i\text{位秘书能力最佳}) \cdot P(\text{第}i\text{位秘书被选择}|\text{第}i\text{位秘书能力最佳})  \\  &=  P(\text{第}i\text{位秘书能力最佳}) \cdot  \sum_{i=r}^n   P(\text{前}i-1\text{位中能力最佳的秘书出现在前}r-1\text{位中}) \\ &=  \sum_{i=r}^n \dfrac{1}{n} \cdot  \dfrac{r-1}{i-1}  = \dfrac{r-1}{n} \sum_{i=r}^n \dfrac{1}{i-1}\end{align*}$$
 
 
 通过检查$P_{r+1} \le P_r$的点可以得到：
