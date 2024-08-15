@@ -158,7 +158,7 @@ $$L_r = (1-p)r + p L_{r-1} \Rightarrow  L_r = r+1 + \dfrac{2 p^{r+1} - 1}{1-p}$$
 
 不失一般性，我们设$i=1$，那么在“第1阶段发现摇臂2是最优的”这一条件下的最优策略是$\pi = \arg \sup_{\pi} [V(\pi) : \text{所有}\pi \text{满足} a_1=2]$。假设上面的性质成立，那么最优折扣奖励$V^\star = \dfrac{\lambda}{1 - \beta}$。现在假设我们可以找到策略$\pi$，使得$V(\pi) \ge V^\star - \epsilon\ ,\ \epsilon > 0$，那么我们有：
 
-$$\begin{align*}  V(\pi) = \lambda + \beta \mathbb{E} \left(  \sum_{i=2}^\infty \beta^{i-2} r_i | \pi \right) \\ &=  \lambda + \beta \mathbb{E} \left(  \sum_{i=1}^\infty \beta^{i-1} r_i | \pi \right) \\ &= \lambda + \beta \mathbb{E} \left(  \sum_{i=1}^\infty \beta^{i-1} r_i' | \pi \ \text{(shifted 1 slot)} \right)  \\ & \le  \lambda + \beta V^\star \end{align*}$$
+$$\begin{align*}  V(\pi) &= \lambda + \beta \mathbb{E} \left(  \sum_{i=2}^\infty \beta^{i-2} r_i | \pi \right) \\ &=  \lambda + \beta \mathbb{E} \left(  \sum_{i=1}^\infty \beta^{i-1} r_i | \pi \right) \\ &= \lambda + \beta \mathbb{E} \left(  \sum_{i=1}^\infty \beta^{i-1} r_i' | \pi \ \text{(shifted 1 slot)} \right)  \\ & \le  \lambda + \beta V^\star \end{align*}$$
 
 
 于是我们有$V^\star  - \epsilon \le lambda + \beta V^\star$，从而：
@@ -168,6 +168,7 @@ $$V^\star \le \dfrac{\lambda + \epsilon}{1 - \beta} \rightarrow V^\star \le \dfr
 这就证明了性质。此外，还容易证明从$i=1$阶段开始，使用摇臂2为最优策略的条件是$\lambda \ge \Lambda$，其中：
 
 $$\Lambda = \sum_{N \ge 1} \dfrac{\mathbb{E} \sum_{i=1}^N \beta^{i-1} X_i}{\sum_{i=1}^N \beta^{i-1}}$$
+
 
 
 ## 结语
