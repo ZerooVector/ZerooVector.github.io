@@ -12,12 +12,7 @@
 {% include head.html %}
 
 <script type="text/x-mathjax-config">
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    }
-  };
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
 
 <script type="text/javascript" id="MathJax-script" async
