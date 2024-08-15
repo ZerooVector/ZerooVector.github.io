@@ -151,7 +151,7 @@ $$L_r = (1-p)r + p L_{r-1} \Rightarrow  L_r = r+1 + \dfrac{2 p^{r+1} - 1}{1-p}$$
 
 分析最优停止问题的思想还可以被用于求解强化学习中的重要问题——多臂赌博机问题。在这篇简单的科普文章中，我们只分析问题的最简单形式——双臂赌博机问题。
 
->假定我们有一台有两个摇臂的老虎机，摇臂1每次摇动后的奖励是一列联合分布已知的随机变量$X_1,X_2,\cdots$/，而摇臂2在每次摇动后固定给出奖励$\lambda$。设我们的动作序列是$a_1,a_2,\cdots$，观测到的奖励序列是$r_1,r_2,\cdots$，我们需要找到策略$a_n = \pi(a_1,r_1,\cdots,a_{n-1},r_{n-1})$以最大化折扣奖励$V(\pi)= \mathbb{E}(\sum_{i=1}^\infty \beta^{i-1} r_i \| \pi)$。
+>假定我们有一台有两个摇臂的老虎机，摇臂1每次摇动后的奖励是一列联合分布已知的随机变量$X_1,X_2,\cdots$，而摇臂2在每次摇动后固定给出奖励$\lambda$。设我们的动作序列是$a_1,a_2,\cdots$，观测到的奖励序列是$r_1,r_2,\cdots$，我们需要找到策略$a_n = \pi(a_1,r_1,\cdots,a_{n-1},r_{n-1})$以最大化折扣奖励$V(\pi)= \mathbb{E}(\sum_{i=1}^\infty \beta^{i-1} r_i \| \pi)$。
 
 
 为什么我们说这个问题可以与最优停止问题联系起来？这是因为我们将证明这一问题的重要性质：**如果在第$i$阶段发现使用摇臂2是最优的，那么最优策略就应当是在第$i$阶段后一直使用摇臂2**。也就是说，我们需要确定一个从摇臂1切换到摇臂2的时间点。
@@ -163,7 +163,7 @@ $$\begin{align*}  V(\pi) &= \lambda + \beta \mathbb{E} \left(  \sum_{i=2}^\infty
 
 于是我们有$V^\star  - \epsilon \le lambda + \beta V^\star$，从而：
 
-$$V^\star \le \dfrac{\lambda + \epsilon}{1 - \beta} \rightarrow V^\star \le \dfrac{\lambda}{1 - \beta}$$。
+$$V^\star \le \dfrac{\lambda + \epsilon}{1 - \beta} \Rightarrow V^\star \le \dfrac{\lambda}{1 - \beta}$$。
 
 这就证明了性质。此外，还容易证明从$i=1$阶段开始，使用摇臂2为最优策略的条件是$\lambda \ge \Lambda$，其中：
 
