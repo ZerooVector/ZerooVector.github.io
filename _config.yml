@@ -56,13 +56,16 @@ highlighter: rouge
 permalink:   /:categories/:title
 
 
+markdown: kramdown
+
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-  math_engine: mathjax
+  
 
   # coderay:
   #   coderay_line_numbers:
@@ -75,6 +78,9 @@ kramdown:
 # disqus settings:
 disqus:
   shortname: yhs
+
+
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
