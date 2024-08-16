@@ -161,7 +161,7 @@ $$L_r = (1-p)r + p L_{r-1} \Rightarrow  L_r = r+1 + \dfrac{2 p^{r+1} - 1}{1-p}$$
 $$\begin{align*}  V(\pi) &= \lambda + \beta \mathbb{E} \left(  \sum_{i=2}^\infty \beta^{i-2} r_i | \pi \right) \\ &=  \lambda + \beta \mathbb{E} \left(  \sum_{i=1}^\infty \beta^{i-1} r_i | \pi \right) \\ &= \lambda + \beta \mathbb{E} \left(  \sum_{i=1}^\infty \beta^{i-1} r_i' | \pi \ \text{(shifted 1 slot)} \right)  \\ & \le  \lambda + \beta V^\star \end{align*}$$
 
 
-于是我们有$V^\star  - \epsilon \le lambda + \beta V^\star$，从而：
+于是我们有$V^\star  - \epsilon \le \lambda + \beta V^\star$，从而：
 
 $$V^\star \le \dfrac{\lambda + \epsilon}{1 - \beta} \Rightarrow V^\star \le \dfrac{\lambda}{1 - \beta}$$。
 
