@@ -19,4 +19,6 @@ title: Notes
 
 - 正在完成的电动力学笔记：[电动力学笔记](https://zeroovector.github.io/notes/electrodynamics)
 - 正在完成的随机分析笔记：
-- 数学物理——从入门到入土：
+- 数学物理——从入门到入土： 
+- 现代量子力学：
+- 可视化的微分几何与形式：[可视化微分几何（科普漫画）](https://zeroovector.github.io/notes/basicdiffgeo)
