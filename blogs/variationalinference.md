@@ -21,11 +21,13 @@ $$
 P(x|X) = \int   P(x,\theta|X) d \theta = \int  P(x|\theta,X) P(\theta|X) d \theta  = \mathbb{E}_{P(\theta|X)} [P(x|\theta)]
 $$
 
-因此，我们只要知道参数的后验分布 $P(\theta|X)$，就可以估计新样本出现的概率。一般来说，模型的参数非常复杂，后验分布相当难以求出，此时我们就需要使用近似方法。变分推断就是一种确定性的近似方法。
+
+因此，我们只要知道参数的后验分布$P(\theta|X)$，就可以估计新样本出现的概率。一般来说，模型的参数非常复杂，后验分布相当难以求出，此时我们就需要使用近似方法。变分推断就是一种确定性的近似方法。
 
 ### 基于平均场理论的梯度上升方法
 
 在以下描述中，我们使用 $X$ 表示观测数据，而 $Z$ 表示隐变量和参数的集合。我们现在将 $P(X)$ 写成两式之和：
+
 $$
 \begin{align*}
 \log P(X) &= \log P(X,Z) - \log(Z|X)\\
@@ -34,15 +36,18 @@ $$
 $$
 
 两侧同时取期望：
+
 $$
 LHS = \int \log P(X) q(Z) dZ = \log P(X)
 $$
+
 
 $$
 \begin{align*}
 RHS &= \int_{Z}  q(Z) \log \dfrac{P(X,Z)}{q(Z)} dZ - \int_{Z} q(Z)  \log \dfrac{P(Z|X)}{q(Z)}  dZ
 \end{align*}
 $$
+
 
 
 其中，第一项被称为置信下界 ELBO，记为 $\mathcal{L}(q)$，而右边则是 $\text{KL}(q||p)$，也就是 $q(Z)$ 和 $p(Z|X)$ 的 KL 散度。我们现在希望使用 $q(Z)$ 来逼近 $p(Z|X)$，那么我们自然想使得 $\text{KL}(q||p)$ 尽可能小。考虑到 $P(X)$ 是定值，那么我们希望使得：
@@ -88,9 +93,11 @@ $$
 &\le \int_{Z_{j}} q_{j}(Z_{j}) \log  \dfrac{\hat P(X,Z_{j})}{q_{j}(Z_{j})} dZ_{j} +C  \\
 &= - \text{KL}(q_{j}|| \hat P(X,Z_{j})) + C 
 \end{align*}
-$$
+$$‘
 
-其中，$\hat P (X, Z_{j}) = \mathbb{E}_{\prod_{i \not = j}^{M} q_{i}(Z_{i})}[ P(X,Z)]$，这给出了只求解 $Z$ 中的一个组 $Z_{i}$，而其他组不变时，ELBO 的表达式。
+
+其中，$\hat P(X, Z_{j})=\mathbb{E}_{\prod_{i \not = j}^{M} q_{i}(Z_{i})}[ P(X,Z)]$，这给出了只求解 $Z$ 中的一个组 $Z_{i}$，而其他组不变时，ELBO 的表达式。
+
 
 我们规范一下符号，我们现在使用 $x^{(i)}$ 代表第 $i$ 个样本，而 $z^{(i)}$ 代表第 $i$ 个隐变量，那么假定我们有一个参数为 $\theta$ 的生成模型，它的似然就是：
 
