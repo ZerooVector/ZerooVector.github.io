@@ -13,6 +13,7 @@ title: Variational Inference
 
 $$P(\theta|x) = \dfrac{P(x|\theta)P(\theta)}{P(x)}$$
 
+
 假设我们现在有了数据样本 $X$，我们希望估计一个新出现的数据 $x$ 出现的概率是多少，那么：
 
 $$P(x|X) = \int   P(x,\theta|X) d \theta = \int  P(x|\theta,X) P(\theta|X) d \theta  = \mathbb{E}_{P(\theta|X)} [P(x|\theta)]$$
@@ -27,12 +28,12 @@ $$P(x|X) = \int   P(x,\theta|X) d \theta = \int  P(x|\theta,X) P(\theta|X) d \th
 $$\begin{align*}\log P(X) &= \log P(X,Z) - \log(Z|X)\\&= \log \dfrac{P(X,Z)}{q(Z)} - \log  \dfrac{P(Z|X)}{q(Z)}\end{align*}$$
 
 两侧同时取期望：
-
+左侧：
 $$
 LHS = \int \log P(X) q(Z) dZ = \log P(X)
 $$
 
-
+右侧：
 $$
 \begin{align*}
 RHS &= \int_{Z}  q(Z) \log \dfrac{P(X,Z)}{q(Z)} dZ - \int_{Z} q(Z)  \log \dfrac{P(Z|X)}{q(Z)}  dZ
@@ -84,7 +85,7 @@ $$
 &\le \int_{Z_{j}} q_{j}(Z_{j}) \log  \dfrac{\hat P(X,Z_{j})}{q_{j}(Z_{j})} dZ_{j} +C  \\
 &= - \text{KL}(q_{j}|| \hat P(X,Z_{j})) + C 
 \end{align*}
-$$‘
+$$
 
 
 其中，$\hat P(X, Z_{j})=\mathbb{E}_{\prod_{i \not = j}^{M} q_{i}(Z_{i})}[ P(X,Z)]$，这给出了只求解 $Z$ 中的一个组 $Z_{i}$，而其他组不变时，ELBO 的表达式。
