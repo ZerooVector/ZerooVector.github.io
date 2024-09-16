@@ -6,20 +6,16 @@ title: Variational Inference
 
 ## 生成模型从入门到入土#1：变分推断
 
-#MachineLearning 
+
 
 ### 什么是变分推断？
 在传统的机器学习中，我们要解决的是参数的点估计问题（优化问题），而在贝叶斯学派的视角中国，我们需要估计参数的分布。考虑贝叶斯公式：
 
-$$
-P(\theta|x) = \dfrac{P(x|\theta)P(\theta)}{P(x)}
-$$
+$$P(\theta|x) = \dfrac{P(x|\theta)P(\theta)}{P(x)}$$
 
 假设我们现在有了数据样本 $X$，我们希望估计一个新出现的数据 $x$ 出现的概率是多少，那么：
 
-$$
-P(x|X) = \int   P(x,\theta|X) d \theta = \int  P(x|\theta,X) P(\theta|X) d \theta  = \mathbb{E}_{P(\theta|X)} [P(x|\theta)]
-$$
+$$P(x|X) = \int   P(x,\theta|X) d \theta = \int  P(x|\theta,X) P(\theta|X) d \theta  = \mathbb{E}_{P(\theta|X)} [P(x|\theta)]$$
 
 
 因此，我们只要知道参数的后验分布$P(\theta|X)$，就可以估计新样本出现的概率。一般来说，模型的参数非常复杂，后验分布相当难以求出，此时我们就需要使用近似方法。变分推断就是一种确定性的近似方法。
@@ -28,12 +24,7 @@ $$
 
 在以下描述中，我们使用 $X$ 表示观测数据，而 $Z$ 表示隐变量和参数的集合。我们现在将 $P(X)$ 写成两式之和：
 
-$$
-\begin{align*}
-\log P(X) &= \log P(X,Z) - \log(Z|X)\\
-&= \log \dfrac{P(X,Z)}{q(Z)} - \log  \dfrac{P(Z|X)}{q(Z)}
-\end{align*}
-$$
+$$\begin{align*}\log P(X) &= \log P(X,Z) - \log(Z|X)\\&= \log \dfrac{P(X,Z)}{q(Z)} - \log  \dfrac{P(Z|X)}{q(Z)}\end{align*}$$
 
 两侧同时取期望：
 
