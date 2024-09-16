@@ -82,7 +82,7 @@ $$
 
 $$
 \begin{align*}
-\text{原式} &= \int_{Z_{j}} q_{j}(Z_{j})\mathbb{E}_{q_{i},i \not = j}[\log P(X,Z)]   dZ_{j} - \sum_{i=1}^{M} \int_{Z_{i}} q_{i}(Z_{i}) \log q_{i}(Z_{i}) dZ_{i}\\
+\text{原式} &= \int_{Z_{j}} q_{j}(Z_{j})\mathbb{E}_{\prod_{i \not = j}^{M}q_{i}(Z_{i})}[\log P(X,Z)]   dZ_{j} - \sum_{i=1}^{M} \int_{Z_{i}} q_{i}(Z_{i}) \log q_{i}(Z_{i}) dZ_{i}\\
 &= \int_{Z_{j}} q_{j}(Z_{j})\mathbb{E}_{\prod_{i \not = j}^{M}q_{i}(Z_{i})}[\log P(X,Z)]   dZ_{j} - \int_{Z_{j}} q_{j}(Z_{j}) \log q_{j}(Z_{j})dZ_{j} + C  \\
 &\le \int_{Z_{j}} q_{j}(Z_{j}) \log  \dfrac{\hat P(X,Z_{j})}{q_{j}(Z_{j})} dZ_{j} +C  \\
 &= - \text{KL}(q_{j}|| \hat P(X,Z_{j})) + C 
@@ -90,7 +90,7 @@ $$
 $$
 
 
-其中，$\hat P(X, Z_{j})=\mathbb{E}_{\prod_{i \not = j}^{M} q_{i}(Z_{i})}[ P(X,Z)]$，这给出了只求解 $Z$ 中的一个组 $Z_{i}$，而其他组不变时，ELBO 的表达式。
+其中，$\hat P(X, Z_{j})=\mathbb{E}_{q_i ,i \not = j}[ P(X,Z)]$，这给出了只求解 $Z$ 中的一个组 $Z_{i}$，而其他组不变时，ELBO 的表达式。
 
 
 我们规范一下符号，我们现在使用 $x^{(i)}$ 代表第 $i$ 个样本，而 $z^{(i)}$ 代表第 $i$ 个隐变量，那么假定我们有一个参数为 $\theta$ 的生成模型，它的似然就是：
