@@ -30,12 +30,18 @@ $$P(x|X) = \int   P(x,\theta|X) d \theta = \int  P(x|\theta,X) P(\theta|X) d \th
 $$\begin{align*}\log P(X) &= \log P(X,Z) - \log(Z|X)\\&= \log \dfrac{P(X,Z)}{q(Z)} - \log  \dfrac{P(Z|X)}{q(Z)}\end{align*}$$
 
 两侧同时取期望：
+
+
 左侧：
+
+
 $$
 LHS = \int \log P(X) q(Z) dZ = \log P(X)
 $$
 
 右侧：
+
+
 $$
 \begin{align*}
 RHS &= \int_{Z}  q(Z) \log \dfrac{P(X,Z)}{q(Z)} dZ - \int_{Z} q(Z)  \log \dfrac{P(Z|X)}{q(Z)}  dZ
