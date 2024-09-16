@@ -8,8 +8,10 @@ title: Variational Inference
 
 
 
+
+
 ### 什么是变分推断？
-在传统的机器学习中，我们要解决的是参数的点估计问题（优化问题），而在贝叶斯学派的视角中国，我们需要估计参数的分布。考虑贝叶斯公式：
+在传统的机器学习中，我们要解决的是参数的点估计问题（优化问题），而在贝叶斯学派的视角中，我们需要估计参数的分布。考虑贝叶斯公式：
 
 $$P(\theta|x) = \dfrac{P(x|\theta)P(\theta)}{P(x)}$$
 
@@ -19,7 +21,7 @@ $$P(\theta|x) = \dfrac{P(x|\theta)P(\theta)}{P(x)}$$
 $$P(x|X) = \int   P(x,\theta|X) d \theta = \int  P(x|\theta,X) P(\theta|X) d \theta  = \mathbb{E}_{P(\theta|X)} [P(x|\theta)]$$
 
 
-因此，我们只要知道参数的后验分布$P(\theta|X)$，就可以估计新样本出现的概率。一般来说，模型的参数非常复杂，后验分布相当难以求出，此时我们就需要使用近似方法。变分推断就是一种确定性的近似方法。
+因此，我们只要知道参数的后验分布$P(\theta\|X)$，就可以估计新样本出现的概率。一般来说，模型的参数非常复杂，后验分布相当难以求出，此时我们就需要使用近似方法。变分推断就是一种确定性的近似方法。
 
 ### 基于平均场理论的梯度上升方法
 
@@ -42,7 +44,7 @@ $$
 
 
 
-其中，第一项被称为置信下界 ELBO，记为 $\mathcal{L}(q)$，而右边则是 $\text{KL}(q||p)$，也就是 $q(Z)$ 和 $p(Z|X)$ 的 KL 散度。我们现在希望使用 $q(Z)$ 来逼近 $p(Z|X)$，那么我们自然想使得 $\text{KL}(q||p)$ 尽可能小。考虑到 $P(X)$ 是定值，那么我们希望使得：
+其中，第一项被称为置信下界 ELBO，记为 $\mathcal{L}(q)$，而右边则是 $\text{KL}(q\|\|p)$，也就是 $q(Z)$ 和 $p(Z\|X)$ 的 KL 散度。我们现在希望使用 $q(Z)$ 来逼近 $p(Z\|X)$，那么我们自然想使得 $\text{KL}(q\|\|p)$ 尽可能小。考虑到 $P(X)$ 是定值，那么我们希望使得：
 
 $$
 \mathcal{L}(q) = \int_{Z} q(Z)  \log \dfrac{P(X,Z)}{q(Z)} dZ 
@@ -80,7 +82,7 @@ $$
 
 $$
 \begin{align*}
-\text{原式} &= \int_{Z_{j}} q_{j}(Z_{j})\mathbb{E}_{\prod_{i \not = j}^{M}q_{i}(Z_{i})}[\log P(X,Z)]   dZ_{j} - \sum_{i=1}^{M} \int_{Z_{i}} q_{i}(Z_{i}) \log q_{i}(Z_{i}) dZ_{i}\\
+\text{原式} &= \int_{Z_{j}} q_{j}(Z_{j})\mathbb{E}_{q_{i},i \not = j}[\log P(X,Z)]   dZ_{j} - \sum_{i=1}^{M} \int_{Z_{i}} q_{i}(Z_{i}) \log q_{i}(Z_{i}) dZ_{i}\\
 &= \int_{Z_{j}} q_{j}(Z_{j})\mathbb{E}_{\prod_{i \not = j}^{M}q_{i}(Z_{i})}[\log P(X,Z)]   dZ_{j} - \int_{Z_{j}} q_{j}(Z_{j}) \log q_{j}(Z_{j})dZ_{j} + C  \\
 &\le \int_{Z_{j}} q_{j}(Z_{j}) \log  \dfrac{\hat P(X,Z_{j})}{q_{j}(Z_{j})} dZ_{j} +C  \\
 &= - \text{KL}(q_{j}|| \hat P(X,Z_{j})) + C 
