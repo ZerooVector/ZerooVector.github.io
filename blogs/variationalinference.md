@@ -174,3 +174,12 @@ $$
 $$
 
 这样，所有的不确定性被转移到了$\epsilon$上。
+
+
+### 实例演示
+
+
+下面我们求解一个极其简单的问题：考虑一些数据由模型$y = \beta x + \epsilon$生成，其中$\epsilon \sim N(0,\sigma^2)$且$\sigma$已知，如何使用变分推断求解$\beta$的后验分布？这里给出了简单的代码实现，手动计算了ELBO的梯度并进行梯度上升。
+
+[代码演示：一维贝叶斯回归](https://zeroovector.github.io/blogs/attached_code/VariationalInference.ipynb)
+
