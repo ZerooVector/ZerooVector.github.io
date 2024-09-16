@@ -13,3 +13,4 @@ title: Blogs
 - [【无限流浅谈】：从《迷域行者》到双臂赌博机](https://zeroovector.github.io/blogs/optimalstopping/index.html) ： 新开的一个小栏目，希望通过合理、可计算的手段破解智斗/无限流分区小说/漫画中的经典谜题。本次来聊聊大多数人耳熟能详的秘书问题/结婚问题。
 
 
+- [【生成模型入门到入土】：1-变分推断](https://zeroovector.github.io/blogs/variationalinference/index.html)
