@@ -4,6 +4,8 @@ permalink: /blogs/vae/index.html
 title: vae
 ---
 
+## 生成模型从入门到入土#2：变分自编码器
+
 
 
 ### 回顾和整理：在 VI 中，我们是如何给出 ELBO 的？
