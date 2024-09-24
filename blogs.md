@@ -14,3 +14,6 @@ title: Blogs
 
 
 - [【生成模型入门到入土】：1-变分推断](https://zeroovector.github.io/blogs/variationalinference/index.html)：新开栏目，希望讲解生成模型的数学基础
+
+
+- [【生成模型入门到入土】：2-变分自编码器](https://zeroovector.github.io/blogs/vae/index.html)：生成模型的启航之地

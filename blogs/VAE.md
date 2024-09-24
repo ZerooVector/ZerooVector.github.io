@@ -1,4 +1,10 @@
-#MachineLearning 
+---
+layout: page
+permalink: /blogs/vae/index.html
+title: vae
+---
+
+
 
 ### 回顾和整理：在 VI 中，我们是如何给出 ELBO 的？
 回顾一下上一节变分推断中我们干什么：**我们希望走贝叶斯学派的路，根据数据点推断模型中的一些参数分布**。因此，我们的推导过程是：
