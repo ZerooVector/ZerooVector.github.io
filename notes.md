@@ -17,8 +17,9 @@ title: Notes
 
 这里是将Obsidian Vault中细碎的笔记拼接、整理后形成的按照章节书写的笔记。
 
-- 正在完成的电动力学笔记：[电动力学笔记](https://zeroovector.github.io/notes/electrodynamics)
-- 正在完成的随机分析笔记：
+- 电动力学笔记：[电动力学笔记](https://zeroovector.github.io/notes/electrodynamics)
+- 随机过程讨论班：[北理物协-随机过程讨论班](https://zeroovector.github.io/notes/stochasticprocess)
 - 数学物理——从入门到入土： 
 - 现代量子力学：
 - 可视化的微分几何与形式：[可视化微分几何（科普漫画）](https://zeroovector.github.io/notes/basicdiffgeo)
+- 梁灿彬的广义相对论：
