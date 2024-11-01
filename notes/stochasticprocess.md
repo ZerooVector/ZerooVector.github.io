@@ -14,4 +14,4 @@ title: Notes of StochasticProcess
 
 - Day-4：泊松过程、连续时间有限状态马氏链、布朗运动、BSM方程  [Day-4](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day4.pdf)
 
-- Day-5：随机过程的“滤子”、后向与前向柯尔莫哥洛夫方程、扩散过程传播子的演化（Fokker-Planck方程）  [Day-4](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day5.pdf)
+- Day-5：随机过程的“滤子”、后向与前向柯尔莫哥洛夫方程、扩散过程传播子的演化（Fokker-Planck方程）  [Day-5](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day5.pdf)
