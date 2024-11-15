@@ -17,3 +17,5 @@ title: Notes of StochasticProcess
 - Day-5：随机过程的“滤子”、扩散过程的后向与前向柯尔莫哥洛夫方程、传播子的演化（Fokker-Planck方程）  [Day-5](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day5.pdf)
 
 - Day-6：鞅（公平赌博过程）的定义、Doob下鞅分解、停时和选样定理初步  [Day-6](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day6.pdf)
+
+- Day-7：选样定理、赌徒输光问题、Wald等式、更新过程、Doob停时定理  [Day-7](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day7.pdf)

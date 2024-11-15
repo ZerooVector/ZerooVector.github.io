@@ -39,7 +39,7 @@ title: Notes of GeneralRelativity
 
 - Day 15-16：抽象指标记号
 
-- 第二章番外：习题选做
+- 第二章番外：习题选做  [第二章番外](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_ch2_extra.pdf)
 
 
 
