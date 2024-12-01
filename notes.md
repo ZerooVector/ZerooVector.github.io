@@ -23,4 +23,4 @@ title: Notes
 - 现代量子力学：**这个真的拖了好久好久啊，我要死啦！**
 - 可视化的微分几何与形式：[可视化微分几何（科普漫画）](https://zeroovector.github.io/notes/basicdiffgeo)
 - 梁灿彬的广义相对论：[猫猫的广相小餐厅](https://zeroovector.github.io/notes/generalrelativity)
-
+- 热力学与统计物理：[热统笔记](https://zeroovector.github.io/notes/statisticalmechanics)

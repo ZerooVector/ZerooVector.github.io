@@ -9,6 +9,8 @@ title: Notes of Statistical Mechanics
 ##### 所谓状态函数 过程无关痛痒
 ##### 喜怒哀乐悲欢 终将被遗忘
 
+热力学与统计物理笔记，主要参考刘川所著教材。
+
 ### 第一部分：热力学
 
 - Day 1-6：两条铁律与幻梦的破灭——热力学零、一、二定律 [Day 1-6](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day1-6.pdf)
