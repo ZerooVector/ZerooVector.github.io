@@ -19,3 +19,6 @@ title: Notes of Statistical Mechanics
 - Day 11-16：千树万树梨花开——单元系复相平衡 [Day 11-6](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day11-16.pdf)
 
 - Day 17-22：金坷垃制造指南——多元系化学平衡 [Day 17-22](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day17-22.pdf)
+
+### 第二部分：统计物理学
+
