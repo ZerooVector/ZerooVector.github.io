@@ -18,7 +18,7 @@ title: Notes of Statistical Mechanics
 
 - Day 7-10：热力学面面观——麦克斯韦关系式 [Day 7-10](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day7-10.pdf)
 
-- Day 11-16：千树万树梨花开——单元系复相平衡 [Day 11-6](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day11-16.pdf)
+- Day 11-16：千树万树梨花开——单元系复相平衡 [Day 11-16](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day11-16.pdf)
 
 - Day 17-22：金坷垃制造指南——多元系化学平衡 [Day 17-22](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day17-22.pdf)
 
