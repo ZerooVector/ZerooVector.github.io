@@ -19,3 +19,7 @@ title: Notes of StochasticProcess
 - Day-6：鞅（公平赌博过程）的定义、Doob下鞅分解、停时和选样定理初步  [Day-6](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day6.pdf)
 
 - Day-7：选样定理、赌徒输光问题、Wald等式、更新过程、Doob停时定理  [Day-7](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day7.pdf)
+
+- Day-8：伊藤微积分、随机微分方程、概率流ODE、Feymann-Kac方程  [Day-8](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day8.pdf)
+
+- Day-9：R-N导数、测度变换、Girsanov定理、风险中性测度、路径积分  [Day-9](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day9.pdf)
