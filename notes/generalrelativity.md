@@ -44,4 +44,12 @@ title: Notes of GeneralRelativity
 
 ### 第三章：变成蚂蚁看地球
 
+- Day 17-18：无挠导数、克氏符  [Day 15-16](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day17-18.pdf)
+
+- Day 19-20：平行移动、矢量沿曲线的导数  [Day 19-20](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day19-20.pdf)
+  
+- Day 21-22：测地线  [Day 21-22](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day21-22.pdf)
+
+- Day 23-24：黎曼曲率张量  [Day 23-24](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day23-24.pdf)
+
 
