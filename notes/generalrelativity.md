@@ -27,19 +27,21 @@ title: Notes of GeneralRelativity
 
 ### 第二章：流形上的成员们
 
-- Day 3-4：微分流形简介
+- Day 3-4：微分流形简介  [Day 3-4](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day3-4.pdf)
 
-- Day 5-8：流形上的矢量场和曲线
+- Day 5-8：流形上的矢量场和曲线  [Day 5-8](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day5-8.pdf)
 
 - Day 9-10：流形上的对偶矢量场  [Day 9-10](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day9-10.pdf)
 
 - Day 11-12：流形上的张量场  [Day 11-12](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day11-12.pdf)
 
-- Day 13-14：度规张量
+- Day 13-14：度规张量  [Day 13-14](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day13-14.pdf)
 
-- Day 15-16：抽象指标记号
+- Day 15-16：抽象指标记号  [Day 15-16](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day15-16.pdf)
 
 - 第二章番外：习题选做  [第二章番外](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_ch2_extra.pdf)
 
+
+### 第三章：变成蚂蚁看地球
 
 
