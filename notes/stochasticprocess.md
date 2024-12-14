@@ -6,7 +6,8 @@ title: Notes of StochasticProcess
 
 ## 随机过程笔记
 
-#### Face the Fear, Build the Future!
+##### 如果说 真实会为虚拟着墨
+##### 我看到的景色 是不是也源自哪个你呢
 
 这是北京理工大学物理爱好者协会 2024-2025学年 第一学期 随机过程讨论班所使用的笔记。我们期望通过学习这门学科为科学和工程中的一些重要模型提供新的认识。这里的笔记从讨论班的第三周开始，每周更新一次。
 
@@ -23,3 +24,5 @@ title: Notes of StochasticProcess
 - Day-8：伊藤微积分、随机微分方程、概率流ODE、Feymann-Kac方程  [Day-8](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day8.pdf)
 
 - Day-9：R-N导数、测度变换、Girsanov定理、风险中性测度、路径积分  [Day-9](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_day9.pdf)
+
+- 随机过程：期末考试  [Final](https://zeroovector.github.io/notes/stochasticprocess_pdf/stochasticprocess_final.pdf)

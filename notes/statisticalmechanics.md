@@ -25,3 +25,5 @@ title: Notes of Statistical Mechanics
 ### 第二部分：统计物理学
 
 - Day 23-31：大自然也掷骰子——统计系综理论  [Day 23-31](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day23-31.pdf)
+
+- Day 48-51：永不回头的时间之矢——非平衡统计初步  [Day 48-51](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day48-51.pdf)
