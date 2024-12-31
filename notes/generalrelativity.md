@@ -52,4 +52,12 @@ title: Notes of GeneralRelativity
 
 - Day 23-24：黎曼曲率张量  [Day 23-24](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day23-24.pdf)
 
+- 第三章番外：习题选做
+
+
+### 第四章：流形上的对称性
+
+- Day 26-27：推前、拉回映射、李(Lie)导数  [Day 26-27](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day26-27.pdf)
+
+- Day 28-31：基灵(Killing)矢量、超曲面  [Day 28-31](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day28-31.pdf)
 

@@ -17,3 +17,6 @@ title: Blogs
 
 
 - [【生成模型入门到入土】：2-变分自编码器](https://zeroovector.github.io/blogs/vae/index.html)：生成模型的启航之地
+
+
+- [2024：年终总结](https://zeroovector.github.io/blogs/2024summarize/index.html)：当时光匆匆而过
