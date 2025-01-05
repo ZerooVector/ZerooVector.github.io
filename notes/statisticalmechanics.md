@@ -27,6 +27,8 @@ title: Notes of Statistical Mechanics
 
 - Day 32-35：光子气和白矮星——玻色子和费米子的几个例子  [Day 32-35](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day32-35.pdf)
 
+- Day 36-40：粒子集团排排坐——理想气体、（短程/长程）相互作用体系[Day 36-40](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day36-40.pdf)
+
 - Day 41-47：无标度世界——伊辛模型的处理方法  [Day 41-47](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day41-47.pdf)
 
 - Day 48-51：永不回头的时间之矢——非平衡统计初步  [Day 48-51](https://zeroovector.github.io/notes/statisticalmechaics_pdf/tdsm_day48-51.pdf)
