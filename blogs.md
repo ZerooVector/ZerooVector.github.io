@@ -20,3 +20,7 @@ title: Blogs
 
 
 - [2024：年终总结](https://zeroovector.github.io/blogs/2024summarize/index.html)：当时光匆匆而过
+
+
+- [此即『生成』之铭 #3 ：流匹配的直观理解](https://zeroovector.github.io/blogs/flowmatching1/index.html)：介绍流匹配的最简单直觉和最简单实现方法
+
