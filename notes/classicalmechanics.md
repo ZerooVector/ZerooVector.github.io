@@ -20,7 +20,7 @@ title: Notes of ClassicalMechanics
 
 - Day 6： 从现代控制说开去——拉格朗日乘子法  [Day 6](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day6.pdf)
 
-- Day 7： 宇航系『圣地巡礼』——虚位移原理  [Day 7](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day7.pdf)
+- Day 7： 宇航学院『圣地巡礼』——虚位移原理  [Day 7](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day7.pdf)
 
 
 ### 中半：处理几个经典问题
