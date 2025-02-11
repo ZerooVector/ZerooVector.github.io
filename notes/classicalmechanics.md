@@ -30,3 +30,20 @@ title: Notes of ClassicalMechanics
 
 ### 后半：哈密顿力学
 
+- Day 13： 『交错』的一阶方程组——勒让德变换、哈密顿正则方程  [Day 13](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day13.pdf)
+
+- Day 14： 相空间几何学——哈密顿力学的辛结构、经典对易子（泊松括号）  [Day 14](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day14.pdf)
+
+- Day 15： 相空间中的『旋转』——有限和无穷小正则变换、刘维尔定理  [Day 15](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day15.pdf)
+
+- Day 16： 动态规划和量子之门——HJB方程、经典路径作用量、莫培督原理  [Day 16](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day16.pdf)
+
+- Day 17： 极光入夜——可积系统简介、绝热不变量和哈内角  [Day 17](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day17.pdf)
+
+
+
+
+
+
+
+
