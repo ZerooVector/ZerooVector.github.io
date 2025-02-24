@@ -25,3 +25,5 @@ title: Blogs
 - [此即『生成』之铭 #3 ：流匹配的直观理解](https://zeroovector.github.io/blogs/flowmatching1/index.html)：介绍流匹配的最简单直觉和最简单实现方法
 
 - [此即『生成』之铭 #4 ：最优运输的直观理解](https://zeroovector.github.io/blogs/OT1/index.html)：直观读懂最优运输的动力学
+
+- [此即『生成』之铭-番外1：流匹配VS分数匹配](https://zeroovector.github.io/blogs/flowmatchinge1/index.html)：Your Flow Matching Model Secretly Learns the Score Function
