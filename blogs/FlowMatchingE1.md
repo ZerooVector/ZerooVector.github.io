@@ -10,13 +10,13 @@ title: FME1
 知所周众，Score Matching 的反向方程是这样的：
 
 $$
-\dfrac{\mathrm{d}x_{i}}{\mathrm{d}t} = f_{i}(x,t)  \mathrm{d}t -  \dfrac{1}{2} g^{2}(x,t)\partial_{i} \log p(x,t) \mathrm{d }t 
+\dfrac{\mathrm{d}x_{i}}{\mathrm{d}t} = f_{i}(x,t)  \mathrm{d}t -  \dfrac{1}{2} g^{2}(t)\partial_{i} \log p(x,t) \mathrm{d }t 
 $$
 
 这个方程里面是显含 $\log p(x,t)$ 的，这极大地便利了我们进行条件生成任务，比如最简单的方式是所谓分类器制导生成：
 
 $$
-\dfrac{\mathrm{d}x_{i,l}}{\mathrm{d}t} = f_{i}(x,t)  \mathrm{d}t -  \dfrac{1}{2} g^{2}(x,t)\partial_{i} \log p(x,t) \mathrm{d }t  - \kappa \partial_{i} \log p(l|x) \mathrm{d}t
+\dfrac{\mathrm{d}x_{i,l}}{\mathrm{d}t} = f_{i}(x,t)  \mathrm{d}t -  \dfrac{1}{2} g^{2}(t)\partial_{i} \log p(x,t) \mathrm{d }t  - \kappa g^{2}(t)\partial_{i} \log p(l|x) \mathrm{d}t
 $$
 
 其中，$\partial_{i} \log p(l\|x)$ 是一个在噪声数据上训练的分类器。一个自然的问题是 Flow Matching 的向量场 $v(x,t)$ 是否能写成类似的、与 $\log p(x,t)$ 有关的形式？乍看起来不太可能，因为流匹配中的向量场是“人为设计的”。 比如，当我们希望将数据从初始分布 $p$ 运往终末分布 $q$ 时，我们先给出将 $p$ 运送到终末分布中的一个数据点 $x_{1} \sim q$ 的过程：
