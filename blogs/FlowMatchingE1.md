@@ -76,17 +76,17 @@ $$
 将上式代入 $(\star\star)$ 
 
 $$
-u_{i}(t,x) = \left(\dot \sigma(t) \sigma(t) - \sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)}\right) \partial_{i} \log p(x,t) + \dfrac{\dot \alpha(t)}{\alpha(t)} x_{i}
+u_{i}(t,x) = \left(\sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)} - \dot \sigma(t) \sigma(t)\right) \partial_{i} \log p(x,t) + \dfrac{\dot \alpha(t)}{\alpha(t)} x_{i}
 $$
 
 这个方程给出了 Flow Matching 学习到的速度场和 Score Function 之间的关系。有了这个关系，我们可以在 Flow 流经的路径上训练一个分类器模型 $p(l\|x)$，并直接使用它引导生成：
 
 $$
-u_{i}(t,x|l) = u_{i}(t,x) + \kappa \left(\dot \sigma(t) \sigma(t) - \sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)}\right) \partial_{i} \log (l|x)
+u_{i}(t,x|l) = u_{i}(t,x) + \kappa \left(\sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)} - \dot \sigma(t) \sigma(t)\right) \partial_{i} \log (l|x)
 $$
 
 特别地，对于最简单的线性插值路径有 $\sigma (t) =1-t,\alpha (t) = t$，计算可得：
 
 $$
-u_{i}(t,x|l) = u_{i}(t,x) + \kappa \left( \dfrac{t-1}{t}\right) \partial_{i} \log (l|x)
+u_{i}(t,x|l) = u_{i}(t,x) + \kappa \left( \dfrac{1-t}{t}\right) \partial_{i} \log (l|x)
 $$
