@@ -19,7 +19,7 @@ $$
 \dfrac{\mathrm{d}x_{i,l}}{\mathrm{d}t} = f_{i}(x,t)  \mathrm{d}t -  \dfrac{1}{2} g^{2}(x,t)\partial_{i} \log p(x,t) \mathrm{d }t  - \kappa \partial_{i} \log p(l|x) \mathrm{d}t
 $$
 
-其中，$\partial_{i} \log p(l\|x)$ 是一个在噪声数据上训练的分类器。但是，Flow Matching 的向量场 $v(x,t)$ 看似是“设计”出来的。比如，当我们希望将数据从初始分布 $p$ 运往终末分布 $q$ 时，我们先给出将 $p$ 运送到终末分布中的一个数据点 $x_{1} \sim q$ 的过程：
+其中，$\partial_{i} \log p(l\|x)$ 是一个在噪声数据上训练的分类器。一个自然的问题是 Flow Matching 的向量场 $v(x,t)$ 是否能写成类似的、与 $\log p(x,t)$ 有关的形式？乍看起来不太可能，因为流匹配中的向量场是“人为设计的”。 比如，当我们希望将数据从初始分布 $p$ 运往终末分布 $q$ 时，我们先给出将 $p$ 运送到终末分布中的一个数据点 $x_{1} \sim q$ 的过程：
 
 $$
 p(t,x|x_{1}) = \mathcal{N}(x|\alpha(t) x_{1} , \sigma^{2}(t) I)
@@ -31,7 +31,9 @@ $$
 p(t,x) = \int p(t,x|x_{1})q(x_{1})  \mathrm{d}x_{1}
 $$
 
-Score Function 可以展开成：
+我们要设计的是实现 $p(t,x|x_{1})$ 过程的向量场，最简单的方式是线性插值。
+
+不妨将 Score Funtion 取条件于 $x_{1} \sim q$ 来展开：
 
 $$
 \begin{align*}
@@ -43,7 +45,7 @@ $$
 \end{align*}
 $$
 
-边缘速度场 $u(t,x)$ 能否写成类似的形式？由于条件速度场和边缘速度场分别满足连续性方程：
+边缘速度场 $u(t,x)$ 能否写成类似 $(\star)$ 的形式？由于条件速度场和边缘速度场分别满足连续性方程：
 
 $$
 \partial_{t}p(t,x|x_{1}) + \partial_{i} [p(t,x|x_{1}) u(t,x|x_{1})]^{i} = 0
@@ -71,7 +73,7 @@ $$
 u_{i}(t,x|x_{1}) = \dfrac{\dot \alpha(t)}{\alpha(t)} x_{i} + \left(\dot \sigma(t) \sigma(t) - \sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)}\right) \partial_{i} \log  p(t,x|x_{1}) 
 $$
 
-将上式代入 $(\star\star)$ 即得：
+将上式代入 $(\star\star)$ 
 
 $$
 u_{i}(t,x) = \left(\dot \sigma(t) \sigma(t) - \sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)}\right) \partial_{i} \log p(x,t) + \dfrac{\dot \alpha(t)}{\alpha(t)} x_{i}
