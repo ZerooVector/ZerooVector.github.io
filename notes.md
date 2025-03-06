@@ -22,7 +22,7 @@ title: Notes
 - 经典力学笔记：[经典力学笔记](https://zeroovector.github.io/notes/classicalmechanics)
 - 电动力学笔记：[电动力学笔记](https://zeroovector.github.io/notes/electrodynamics)
 - 热力学与统计物理笔记：[热统笔记](https://zeroovector.github.io/notes/statisticalmechanics)
-- 量子力学笔记：[热统笔记](https://zeroovector.github.io/notes/quantummechanics)
+- 量子力学笔记：[量子力学笔记](https://zeroovector.github.io/notes/quantummechanics)
 
 ### 进阶物理系列
 - 可视化的微分几何与形式：[可视化微分几何（科普漫画）](https://zeroovector.github.io/notes/basicdiffgeo)
