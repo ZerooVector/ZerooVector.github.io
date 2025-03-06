@@ -72,7 +72,7 @@ $$
 这里的分子和分母都能拆，我们不妨先来拆分子。这样，我们单独拆出来一项：
 
 $$
-\mathbb{E}_{x \sim  p(x)} \left( \int dz  \ p(x|z)  \log p(x)\right)  = \mathbb{E}_{x \sim p(x) }( \log p(x))
+\mathbb{E}_{x \sim  p(x)} \left( \int dz  \ p(z|x)  \log p(x)\right)  = \mathbb{E}_{x \sim p(x) }( \log p(x))
 $$
 
 这一项是常数，在优化过程中不必理会，之后我们也略去不写。我们看其他的项：

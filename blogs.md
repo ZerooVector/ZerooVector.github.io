@@ -6,7 +6,18 @@ title: Blogs
 
 # 我的博客
 
-这里会放置一些与学习关联不大的内容。我想，按照时间顺序排列这些内容是一个很好的选择。
+这里放置一些随笔，大概率与学习无关，可能涵盖各个领域。
+
+
+
+## 2024-2025第二学期
+
+
+- [此即『生成』之铭-番外2：虚构史学家的生成模型](https://zeroovector.github.io/blogs/attached_code/introduction_to_generation_model.pdf)：一个关于生成模型系列的简短教程，总结了之前博客中零散的内容
+
+
+
+
 
 ## 2024-2025第一学期
 
@@ -27,3 +38,5 @@ title: Blogs
 - [此即『生成』之铭 #4 ：最优运输的直观理解](https://zeroovector.github.io/blogs/OT1/index.html)：直观读懂最优运输的动力学
 
 - [此即『生成』之铭-番外1：流匹配VS分数匹配](https://zeroovector.github.io/blogs/flowmatchinge1/index.html)：Your Flow Matching Model Secretly Learns the Score Function
+
+
