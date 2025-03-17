@@ -41,7 +41,9 @@ title: Notes of ClassicalMechanics
 - Day 17： 极光入夜——可积系统简介、绝热不变量和哈内角  [Day 17](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_day17.pdf)
 
 
+### 番外：几何化的经典力学
 
+- Ep.1： 拉格朗日力学的几何化  [Ep.1](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_ex1.pdf)
 
 
 
