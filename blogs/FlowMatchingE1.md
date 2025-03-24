@@ -25,7 +25,7 @@ $$
 p(t,x|x_{1}) = \mathcal{N}(x|\alpha(t) x_{1} , \sigma^{2}(t) I)
 $$
 
-其中 $\alpha (0)=1,\alpha (1)=0,\sigma^{2} (0)=1,\sigma^{2} (1)=0$ 。积分掉 $x_{1}$ 就得到将 $p$ 转移到 $q$ 的过程：
+其中 $\alpha (0)=0,\alpha (1)=1,\sigma^{2} (0)=1,\sigma^{2} (1)=0$ 。积分掉 $x_{1}$ 就得到将 $p$ 转移到 $q$ 的过程：
 
 $$
 p(t,x) = \int p(t,x|x_{1})q(x_{1})  \mathrm{d}x_{1}
@@ -70,7 +70,7 @@ $$
 经过简单的初等运算可以验证：
 
 $$
-u_{i}(t,x|x_{1}) = \dfrac{\dot \alpha(t)}{\alpha(t)} x_{i} + \left(\dot \sigma(t) \sigma(t) - \sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)}\right) \partial_{i} \log  p(t,x|x_{1}) 
+u_{i}(t,x|x_{1}) = \dfrac{\dot \alpha(t)}{\alpha(t)} x_{i} + \left( \sigma^{2}(t)  \dfrac{\dot  \alpha(t)}{ \alpha(t)} - \dot \sigma(t) \sigma(t) \right) \partial_{i} \log  p(t,x|x_{1}) 
 $$
 
 将上式代入 $(\star\star)$ 
