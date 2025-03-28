@@ -61,3 +61,23 @@ title: Notes of GeneralRelativity
 
 - Day 28-31：基灵(Killing)矢量、超曲面  [Day 28-31](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day28-31.pdf)
 
+
+### 第五章：微分形式及其积分
+
+- Day 32-38: 微分形式及其积分  [Day 32-38](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day32-38.pdf)
+
+### 第六章：狭义相对论
+
+- Day 39-52: 狭义相对论运动学、力学  [Day 39-52](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day32-38.pdf)
+
+
+### 第七章：广义相对论简介
+
+
+### 第八章：爱因斯坦方程的求解
+
+
+### 第九章：施瓦西时空
+
+
+### 第十章：宇宙学初步
