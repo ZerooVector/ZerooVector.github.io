@@ -68,16 +68,42 @@ title: Notes of GeneralRelativity
 
 ### 第六章：狭义相对论
 
-- Day 39-52: 狭义相对论运动学、力学  [Day 39-52](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day32-38.pdf)
+- Day 39-52: 狭义相对论运动学、力学  [Day 39-52](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day39-52.pdf)
+
+- Day 53-58: 狭义相对论电动力学  [Day 53-58](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day53-58.pdf)
 
 
 ### 第七章：广义相对论简介
 
 
+“泛起时空的涟漪”
+
+- Day 59-65: 广义相对论运动学  [Day 59-65](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day59-65.pdf)
+
+- Day 66-73: 爱因斯坦场方程的构建  [Day 66-73](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day66-73.pdf)
+
+
+### 第十章：宇宙学初步
+
+“你我都来自恒星”
+
+- Day 74-83: 宇宙的几何学、弗里德曼方程  [Day 74-83](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day74-83.pdf)
+
+- Day 84-91: 宇宙演化简史、标准模型  [Day 84-91](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day84-91.pdf)
+
+- Day 92-99: 标准模型的疑难与改进  [Day 92-99](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day92-99.pdf)
+
+
 ### 第八章：爱因斯坦方程的求解
+
+
+- Day 100-109: 爱因斯坦场方程的求解  [Day 100-109](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day100-109.pdf)
 
 
 ### 第九章：施瓦西时空
 
+“不是为了毁灭，而是为了创造”
 
-### 第十章：宇宙学初步
+- Day 110-118: 施瓦西时空  [Day 110-118](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day110-118.pdf)
+
+
