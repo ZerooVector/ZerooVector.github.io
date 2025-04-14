@@ -47,4 +47,4 @@ title: Notes of ClassicalMechanics
 
 - Ep.2： 拉格朗日力学的几何化（2）：切丛上的拉格朗日向量场、简正模式、刚体  [Ep.2](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_ex2.pdf)
 
-- Ep.3： 哈密顿力学的几何化（1）：纤维导数、从切丛到余切丛的一一映射、辛流形和坐标无关的哈密顿方程组  [Ep.2](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_ex2.pdf)
+- Ep.3： 哈密顿力学的几何化（1）：纤维导数、从切丛到余切丛的一一映射、辛流形和坐标无关的哈密顿方程组  [Ep.3](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_ex3.pdf)
