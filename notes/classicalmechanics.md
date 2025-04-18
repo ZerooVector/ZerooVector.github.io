@@ -50,3 +50,5 @@ title: Notes of ClassicalMechanics
 - Ep.3： 哈密顿力学的几何化（1）：纤维导数、从切丛到余切丛的一一映射、辛流形和坐标无关的哈密顿方程组  [Ep.3](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_ex3.pdf)
 
 - Ep.4： 哈密顿力学的几何化（2）：辛线性代数与辛流形简介、正则变换、不依赖坐标的正则辛形式  [Ep.4](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_ex4.pdf)
+
+- Ep.5： 哈密顿力学的几何化（3）：泊松括号、刘维尔定理、诺特定理、可积系统与遍历性简介、保辛格式  [Ep.5](https://zeroovector.github.io/notes/classicalmechanics_pdf/cm_ex5.pdf)
