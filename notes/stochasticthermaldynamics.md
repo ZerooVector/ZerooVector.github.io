@@ -22,7 +22,7 @@ title: Notes of ClassicalMechanics
 
 - Day 7：走向现实的随机热力学——随机热力学的实验验证  [Day 7](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day7.pdf) &nbsp;&nbsp;  在这一节中，我们以估计生物大分子在不同状态下的自由能差和估算擦除信息所需的能量等几个实验作为例子，展示了之前几节介绍的理论的实验验证。
 
-- Day 8：勇敢的少年啊，快去创造奇迹！——随机热力学的未来发展   这一节通过几个小专题，讨论了随机热力学发展的较前沿领域，例如随机热机的熵效率、可观测量的不确定性关系（其实这才是平衡统计里面说的“涨落关系”）、最小耗散控制、鞅论的应用、随机热力学模型和其他模型的类比等等。
+- Day 8：勇敢的少年啊，快去创造奇迹！——随机热力学的未来发展   [Day 8](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day8.pdf) &nbsp;&nbsp;  这一节通过几个小专题，讨论了随机热力学发展的较前沿领域，例如随机热机的熵效率、可观测量的不确定性关系（其实这才是平衡统计里面说的“涨落关系”）、最小耗散控制、鞅论的应用、随机热力学模型和其他模型的类比等等。
 
 
 
