@@ -14,7 +14,7 @@ title: Notes of Stochastic ThermalDynamics
 
 - Day 3：轨道上的可观测量——随机热力学中基本物理量的定义   [Day 3](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day3.pdf)  &nbsp;&nbsp;  在这一节中，我们沿着轨道定义了熵产生、外界对系统做功和系统对热库所放之热等物理量，并且计算了被主方程和Fokker-Planck方程控制的系统的熵产生。
 
-- Day 4：光阴的故事——热力学涨落关系   [Day 4-1](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day4_1.pdf)   &nbsp;&nbsp; 在这一节中，我们指出了随机热力学中最重要的定理之一：**熵是轨迹可逆性的量度，轨道的熵产生可以使用该轨道正向“出现“和反向“出现”的概率之比表达**，基于此，我们给出了热二律的随机热力学表述，并推导了几种实用的涨落关系。
+- Day 4：光阴的故事——热力学涨落关系   [Day 4-1](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day4_1.pdf)  [Day 4-2](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day4_2.pdf)  &nbsp;&nbsp; 在这一节中，我们指出了随机热力学中最重要的定理之一：**熵是轨迹可逆性的量度，轨道的熵产生可以使用该轨道正向“出现“和反向“出现”的概率之比表达**，基于此，我们给出了热二律的随机热力学表述，并推导了几种实用的涨落关系。
 
 - Day 5：热机以负熵为食——随机热力学与信息论    [Day 5](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day5.pdf) &nbsp;&nbsp;   在这一节中，我们讨论了诸如“麦克斯韦妖”等通过利用系统的信息，从单一热源提取能量对外做功的“信息引擎”。我们说明了一般的热机向低温热源放热的行为可以被泛化为热机从一个“信息库”中抽取负熵，并且给出了与热库、信息库同时接触的系统的一般建模。
 
