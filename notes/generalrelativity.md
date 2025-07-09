@@ -106,4 +106,11 @@ title: Notes of GeneralRelativity
 
 - Day 110-118: 施瓦西时空  [Day 110-118](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_day110-118.pdf)
 
+- 施瓦西时空－补充  [CH9: Appendix](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_ch9_2.pdf)
+
+
+### 第十一章：时空的因果结构
+
+- CH 11：时空的因果结构   [CH 11](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_ch11.pdf)
+
 
