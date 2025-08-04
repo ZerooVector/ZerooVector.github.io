@@ -21,7 +21,7 @@ layout: page
 目前，我正行于理论物理和机器学习的边缘上，我的主要研究方向是**系综回归(Ensemble Regression)/最优分布插值**的理论与应用。该方向可能包括的具体内容有：
 
 - **利用某一动力学过程构造的生成模型**：包括 Score Matching, Flow Matching, ...
-- **经典的最优分布插值框架**： 包括 (Unbalanced) Optimal Transport, Schrodinger Bridge, ..。
+- **经典的最优分布插值框架**： 包括 (Unbalanced) Optimal Transport, Schrodinger Bridge, ...
 
 为了在高维真实数据上求解这类插值问题，我希望开发有理论保证的、尽可能Simulation Free的深度求解器。同时，我希望找到这些问题和理论物理的联系，从而从另一个视角给出洞见。
   
