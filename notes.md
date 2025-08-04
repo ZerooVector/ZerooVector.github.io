@@ -32,4 +32,4 @@ title: Notes
 
 ### 应用数学与机器学习系列
 - 随机过程讨论班：[北理物协-随机过程讨论班](https://zeroovector.github.io/notes/stochasticprocess)
-
+- 广义相对论-附录：[广义相对论-附录](https://zeroovector.github.io/notes/generalrelativity_appendix)
