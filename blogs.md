@@ -13,7 +13,7 @@ title: Blogs
 ## 2024-2025第二学期
 
 
-- [此即『生成』之铭-番外2：虚构史学家的生成模型](https://zeroovector.github.io/blogs/attached_code/introduction_to_generation_model.pdf)：一个关于生成模型系列的简短教程，总结了之前博客中零散的内容
+- [此即『生成』之铭-番外2：虚构史学家的生成模型](https://zeroovector.github.io/blogs/file/introduction_to_generative_model.pdf)：一个关于生成模型系列的简短教程，总结了之前博客中零散的内容
 
 
 - [【杂谈】：为什么量子力学没有被『重写』过？](https://zeroovector.github.io/blogs/phy1/index.html)：这篇文章中我自己回答了自己的一些疑问，说明为什么使用随机过程的语言重构量子力学是不必要的。
