@@ -24,7 +24,7 @@ title: Blogs
 
 - [【杂谈】：为什么量子力学没有被『重写』过？](https://zeroovector.github.io/blogs/phy1/index.html)：这篇文章中我自己回答了自己的一些疑问，说明为什么使用随机过程的语言重构量子力学是不必要的。
 
-
+- [此即『生成』之铭 #5 ：『作用匹配』是在匹配什么？](https://zeroovector.github.io/blogs/actionmatching/index.html)：这篇文章中我自己回答了自己的一些疑问，说明为什么使用随机过程的语言重构量子力学是不必要的。
 
 
 ## 2024-2025第一学期

@@ -4,6 +4,7 @@ permalink: /blogs/actionmatching/index.html
 title: Action Matching
 ---
 
+## 此即『生成』之铭 #5 ：『作用匹配』是在匹配什么？
 
 这次来读一篇文章：Action Matching: Learning Stochastic Dynamics from Samples。
 本文章介绍了一种生成模型『Action Matching』，它试图通过拟合一个标量场 $s(x,t)$ 来捕捉粒子群系统的动力学（这是任意一个由动力学过程“诱导”的生成模型所做的事情）。
