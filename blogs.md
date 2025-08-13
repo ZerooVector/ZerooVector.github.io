@@ -27,6 +27,9 @@ title: Blogs
 - [此即『生成』之铭 #5 ：『作用匹配』是在匹配什么？](https://zeroovector.github.io/blogs/actionmatching/index.html)：通过学习一个标量场进行生成的方法
 
 
+- [【杂谈】： 数学建模遗留问题——使用拉氏乘子加约束相当于扩展了构型空间](https://zeroovector.github.io/blogs/oc_mechanics/index.html)：给出一种可能性联系经典力学和最优控制理论
+
+
 ## 2024-2025第一学期
 
 - [【无限流浅谈】：从《迷域行者》到双臂赌博机](https://zeroovector.github.io/blogs/optimalstopping/index.html) ： 新开的一个小栏目，希望通过合理、可计算的手段破解智斗/无限流分区小说/漫画中的经典谜题。本次来聊聊大多数人耳熟能详的秘书问题/结婚问题。
