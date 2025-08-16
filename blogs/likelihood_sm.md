@@ -71,7 +71,7 @@ $$
 $\mathrm{d}\nu$ 同理。利用 $\mathrm{d}x = a \mathrm{d} \tau +g \mathrm{d} W$ 将其中的 $\mathrm{d} x$ 换成 $\mathrm{d} W$，并假定两个 SDE 在 $\tau = 0(t=T)$ 时刻有相同的边缘分布，立刻得到：
 
 $$
-\dfrac{\mathrm{d}\mu[x]}{\mathrm{d} \nu[x]}= \exp\left(- \int \dfrac{1}{2g^{2}} (- (a-b^{2} )\mathrm{d}\tau - 2 (a-b) g \mathrm{d}W)\right)
+\dfrac{\mathrm{d}\mu[x]}{\mathrm{d} \nu[x]}= \exp\left(- \int \dfrac{1}{2g^{2}} (- (a-b )^{2}\mathrm{d}\tau - 2 (a-b) g \mathrm{d}W)\right)
 $$
 
 回到原式，利用 KL 散度的定义立刻有：
