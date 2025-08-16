@@ -29,6 +29,8 @@ title: Blogs
 
 - [【杂谈】： 数学建模遗留问题——使用拉氏乘子加约束相当于扩展了构型空间](https://zeroovector.github.io/blogs/oc_mechanics/index.html)：给出一种可能性联系经典力学和最优控制理论
 
+- [此即『生成』之铭 -6 ：分数匹配就是极大似然](https://zeroovector.github.io/blogs/likelihood_sm/index.html)：分数匹配与极大似然估计的联系
+
 
 ## 2024-2025第一学期
 
