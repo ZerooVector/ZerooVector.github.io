@@ -13,3 +13,5 @@ title: Notes of Quantum Field Theory
 - Day 2：第二量子化 [Day-2](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/qft_day2.pdf)
 - Ex 1：经典场论的补充 [Ex-1](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/qft_ex1.pdf)
 - Day 3：标量场的量子化 [Day-3](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/qft_day3.pdf)
+- Day 4：从经典场论到量子场论 [Day-4](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/qft_day4.pdf)
+- Day 5：对称性I：时空平移与洛伦兹变换 [Day-5](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/qft_day5.pdf)
