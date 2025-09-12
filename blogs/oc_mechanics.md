@@ -23,6 +23,7 @@ $$
 如何在使用尽可能小燃料的前提下完成移动小车的任务？
 
 ### 来自控制系的方法
+
 如果去查控制系的相关参考书，他们会提供一套工程上的处理方法。构造函数：
 
 $$
@@ -61,78 +62,83 @@ $$
 
 结合边界条件就可以具体确定这里的 $C_{1},C_{2}$ 应该取多少。
 
+
+
 ### 疑问与新的构造
 但是，但是！看完了以上过程，你难道没有一点疑问吗？我们先不谈如何从优化的角度证明庞特里亚金极值原理（实际上我们这篇文章也不会谈），除此之外，可以发现状态变量、协态变量的演化方程与经典力学中的哈密顿正则方程相似，为什么会这样？此外，最优控制和经典力学一样都是泛函求极值的问题，但是略有差别（在经典力学中，我们先有作用量，而后通过变分得到运动方程；在最优控制中，我们做的事情更像是“完形填空”——我们既有作用量又有运动方程，只需求出 $u(t)$ 的控制律使得作用量最小化）。最优控制的问题能否被统一到经典力学框架下？本文试图回答这些问题，也就是给庞特里亚金极值原理找到一个物理意义作为解释。
 
-我们考虑一般的系统，设其有 $N$ 个状态变量 $x_{i}, i=1,\cdots N$ 和一个控制变量 $u$，状态变量满足 $N$ 个运动方程 $\dot x_{i}  = f(x,u)$。重申一下，我们的目标是将最优控制问题的求解套路统一到经典力学框架下，这意味着我们需要构造一个拉氏量，**从这个拉氏量出发可以同时给出状态变量的演化方程、协态变量的演化方程和最优控制律**。为了实现这个目的，我们需要将协态变量放到拉氏量中.，一种构造方式如下：考虑一个自由度为 $2N+1$ 的系统，将其前 $N$ 个广义坐标 $q_{1},\cdots q_N$ 对应到状态变量 $x_{1},\cdots ,x_{N}$；将其第 $N+1$ 个广义坐标 $q_{N+1}$ 对应到控制变量 $u$；将控制理论中引入的 $N$ 个协态变量 $\lambda_{1},\cdots ,\lambda_{N}$ 对应到第 $N+1$ 到第 $2N+1$ 个广义坐标对时间的导数 $\dot q_{N+1}, \cdots ,\dot q_{2N+1}$，并构造如下拉氏量：
+我们考虑一般的系统，设其有 $N$ 个状态变量 $x_{i}, i=1,\cdots N$ 和一个控制变量 $u$，状态变量满足 $N$ 个运动方程 $\dot x_{i}  = f(x,u)$。重申一下，我们的目标是将最优控制问题的求解套路统一到经典力学框架下，这意味着我们需要构造一个拉氏量，**从这个拉氏量出发可以同时给出状态变量的演化方程、协态变量的演化方程和最优控制律**。为了实现这个目的，我们需要将协态变量放到拉氏量中.，一种构造方式如下：考虑一个自由度为 $2N+1$ 的系统，将其前 $N$ 个广义坐标 $q_{1},\cdots q_N$ 对应到状态变量 $x_{1},\cdots ,x_{N}$；将其第 $N+1$ 个广义坐标 $q_{N+1}$ 对应到控制变量 $u$；将控制理论中引入的 $N$ 个协态变量 $\lambda_{1},\cdots ,\lambda_{N}$ 对应到第 $N+1$ 到第 $2N+1$ 个广义坐标导数 $q_{N+1}, \cdots ,q_{2N+1}$，并构造如下拉氏量：
 
 $$
-\mathscr{L}(q,\dot q) = L(q) + \sum_{i=1}^{N}\dot q_{N+i+1} (\dot q_{i} -f_{i}(q))
+\mathscr{L}(q,\dot q) = L(q) + \sum_{i=1}^{N} q_{N+i+1} (\dot q_{i} -f_{i}(q))
 $$
 
 为了给出与庞特里亚金极值原理中类似的方程，显然应该做出这个拉氏量对应的哈氏方程。求正则动量：
 
 $$
-p_{i} = \dfrac{\partial L}{\partial \dot q_{i}} = \dot q_{N+1+i} \quad  p_{N+1+i} = \dfrac{\partial L}{\partial \dot q_{N+1+i}} = \dot q_{i} - f_{i}(q) \quad  p_{N+1}= 0
+p_{i} = \dfrac{\partial L}{\partial \dot q_{i}} = q_{N+1+i} \quad  p_{N+1+i} = \dfrac{\partial L}{\partial \dot q_{N+1+i}} = 0 \quad  p_{N+1}= 0
 $$
 
-除了 $\dot q_{N+1}$ 之外，其余的 $\dot q$ 分量均可通过以上式子显式解出称为 $(q,p)$ 的函数。做勒让德变换：
+我们发现所有广义坐标对时间的导数都无法通过上面的式子显式表示成 $p,q$ 的函数，但是这并不影响我们进行勒让德变换，考虑哈密顿量：
 
 $$
 \begin{align*}
-\mathscr{H} &= \sum_{i=1}^{N}(p_{i}\dot q_{i} + p_{N+1+i} \dot q_{N+1+i}) - \mathscr{L}\\
-&= \sum_{i=1}^{N}p_{i}(p_{N+1+i} + f_{i}(q) ) +\sum_{i=1}^{N} p_{N+1+i} p_{i} - \mathscr{L}(q) - \sum_{i=1}^{N} p_{i} p_{N+1+i}\\
-&= \sum_{i=1}^{N}p_{i}(p_{N+1+i} + f_{i}(q)) - \mathscr{L}(q)
+\mathscr{H} &= \sum_{i=1}^{N}p_{i}\dot q_{i}  - \mathscr{L}\\
+&= \sum_{i=1}^{N } p_{i}\dot q_{i} - \sum_{i=1}^{N} q_{N+i+1} (\dot q_{i} - f_{i}(q)) - L(q)\\
+&= \sum_{i=1}^{N } p_{i}\dot q_{i} - \sum_{i=1}^{N} p_{i} (\dot q_{i} - f_{i}(q)) - L(q)\\
+&= - L(q) + \sum_{i=1}^{N} p_{i}f_{i}(q) 
 \end{align*}
 $$
 
-下面导出哈密顿正则方程。显然现在关于正则坐标、正则动量的方程分别分为三组：关于下表 $1,\cdots,N$ 的；关于下标 $N+1,\cdots,2N+1$ 的；关于下标 $N+1$ 的。我们分别写出这些方程，下文中，我们均令 $i=1,\cdots N$：
+下面导出哈密顿正则方程。前面做勒让德变换时我们导出了 $p_{N+1}=0, p_{N+1+i} = 0$，这说明我们构造的拉氏量有退化性。在 Dirac 的约束理论中，由于拉氏量的退化性在勒让德变换时产生的约束被称为初级约束，每出现一个初级约束都需要在哈氏量中补充一个拉氏乘子（注意这里的拉氏乘子是由退化的拉氏量带来的，是在使用哈氏理论处理问题时自然出现的，而非像庞特里亚金极值原理中人为引入的）。因此我们在哈氏量中补充 $N+1$ 个修正项，使得增广的哈氏量变成：
 
 $$
-\dot q_{i} = p_{N+1+i} + f_{i}(q) \quad \langle 1\rangle 
+\mathscr{H}^{\dagger} = \mathscr{H} + \phi_{N}(p,q) \lambda_{N}(t) +  \sum_{i=1}^{N} \phi_{N+1+i}(p,q) \lambda_{N+1+i}(t)
 $$
 
-这对应于各个状态变量的演化方程，但是其中的 $p_{N+1+i}$ 未定。但是这组方程其实是冗余的，在勒让德变换中出现过。
+其中，$\phi_{N}(p, q) = p_{N} , \phi_{N+1+i}(p, q) = p_{N+1+i}$。
+显然现在关于正则坐标、正则动量的方程分别分为三组：关于下标 $1,\cdots,N$ 的；关于下标 $N+1,\cdots,2N+1$ 的；关于下标 $N+1$ 的。我们分别写出这些方程，下文中，我们均取 $i=1,\cdots N$：
 
 $$
-\dot q_{N+1+i} = p_{i} \quad \langle2 \rangle 
+\dot q_{i} =  \dfrac{\partial \mathscr{H}^{\dagger} }{\partial p_{i}} =  f_{i}(q) \quad \langle 1\rangle 
 $$
 
-这也是一组冗余的方程，在勒让德变换中出现过。
+这对应于各个状态变量的演化方程。
 
 $$
-\dot p_{i} =  -\sum_{i=1}^{N} p_{i} \dfrac{\partial f_{i}(q)}{\partial q_{i}} + \dfrac{\partial \mathscr{L}(q)}{\partial q_{i}} \quad \langle3 \rangle
+\dot q_{N+1+i} =  \dfrac{\partial \mathscr{H}^{\dagger} }{\partial p_{N+1+i}} = \lambda_{N+1+i}(t) \quad \langle2 \rangle 
+$$
+
+这组方程不提供任何信息
+
+$$
+\dot p_{i} = - \dfrac{\partial \mathscr{H}^{\dagger}}{\partial q_{i}} =   -\sum_{j=1}^{N} p_{j} \dfrac{\partial f_{j}(q)}{\partial q_{i}} + \dfrac{\partial L(q)}{\partial q_{i}} \quad \langle3 \rangle
 $$
 
 这是协态变量的演化方程。
 
 $$
-\dot p_{N+1+i} = 0 \quad   \langle 4\rangle 
+\dot p_{N+1+i} = - \dfrac{\partial \mathscr{H}^{\dagger}}{\partial q_{N+1+i}} =  0 \quad   \langle 4\rangle 
 $$
+这个方程保证了 $\phi_{N+1+i} = p_{N+1+i}=0$ 的约束一定满足。
 
-这确保 $p_{N+1+i}$ 是常数，与方程 $\langle 1 \rangle$ 一同将状态变量的运动方程确定到差 $N$ 个常数的程度。
-下面考虑控制变量。注意：前面做勒让德变换时我们导出了 $p_{N+1}=0$，这说明我们构造的拉氏量有退化性。在 Dirac 的约束理论中，由于拉氏量的退化性在勒让德变换时产生的约束被称为初级约束，每出现一个初级约束都需要在哈氏量中补充一个拉氏乘子（注意这里的拉氏乘子是由退化的拉氏量带来的，是在使用哈氏理论处理问题时自然出现的，而非像庞特里亚金极值原理中人为引入的）。哈氏量中应当补充一修正项 $\lambda (t) \phi(p,q)$，其中 $\phi (p, q) = p_{3}$。因此：
-
-$$
-\dot  q_{N+1} = \lambda \quad \langle 5 \rangle 
-$$
+下面考虑控制变量。注意：
 
 $$
-\dot p_{3} = - \sum_{i=1}^{N}p_{i} \dfrac{\partial f_{i}(q)}{\partial q_{N+1}} + \dfrac{\partial \mathscr{L}}{\partial q_{N+1}} = 0 \quad  \langle 6 \rangle 
+\dot  q_{N+1} =  \dfrac{\partial \mathscr{H}^{\dagger}}{\partial p_{N+1}} =  \lambda_{N+1} \quad \langle 5 \rangle 
 $$
 
-$\langle 6\rangle$ 是初级约束与动力学结合后得到的次级约束，从中可以解出 $q_{N+1}$，由此确定最优控制律，同时可求出 $\langle 5 \rangle$ 中的 $\lambda$（当然，单独使用 $\langle 5 \rangle$ 不起任何作用）。如果 $\langle 6 \rangle$ 无法解出 $q_{N+1}$，还应该继续向下讨论：记 $\psi (p, q) = \dot p_{3}$，它应当继续满足自洽性条件：
+$$
+\dot p_{N+1} = - \dfrac{\partial \mathscr{H}^{\dagger}}{\partial q_{N+1}} =- \sum_{i=1}^{N}p_{j} \dfrac{\partial f_{j}(q)}{\partial q_{N+1}} + \dfrac{\partial L}{\partial q_{N+1}} = 0 \quad  \langle 6 \rangle 
+$$
+
+$\langle 6\rangle$ 是初级约束与动力学结合后得到的次级约束，从中可以解出 $q_{N+1}$，由此确定最优控制律，同时可求出 $\langle 5 \rangle$ 中的 $\lambda$（当然，单独使用 $\langle 5 \rangle$ 不起任何作用）。如果 $\langle 6 \rangle$ 无法解出 $q_{N+1}$，还应该继续向下讨论：记 $\psi (p, q) = \dot p_{N+1}$，它应当继续满足自洽性条件：
 
 $$
-\dot \psi  = \{\psi,H\} +  \{\psi  ,\phi\} \lambda = 0 
+\dot \psi  = \{\psi,H\} +  \{\psi  ,\phi_{N+1}\} \lambda_{N+1} + \sum_{i=1}^{N} \{\psi  ,\phi_{N+1+i}\} \lambda_{N+1+i} = 0 
 $$
 
 这可以得到新的方程。
 
-容易注意到只要将我们的拉氏量中的 $L(q)$ 换成最优控制中的 $-C(x,u)$，我们立刻得到与庞特里亚金定理几乎相同的表述（仅在状态变量的运动方程上差一组常数）。对于上面的最小燃料控制问题，容易计算得到其哈氏量为：
+容易注意到只要将我们的拉氏量中的 $L(q)$ 换成最优控制中的 $-C(x,u)$，我们立刻得到与庞特里亚金定理几乎相同的表述（仅在状态变量的运动方程上差一组常数）。
 
-$$
-\mathscr{H} = \dfrac{1}{2}q_{3}^{2} + (q_{2} + p_{4}) p_{1} + (q_{3}+p_{5}) p_{2}
-$$
-
-由此可验证以上最优控制标准流程中得到的结论。
