@@ -12,7 +12,9 @@ title: Blogs
 ## 目前更新与置顶
 
 
+## 2025-2026第一学期
 
+- [此即『生成』之铭-番外3：最优传输的经典场论和微分几何形式](https://zeroovector.github.io/blogs/OT2/index.html)：无限维最优控制问题和经典场论的联系
 
 
 
