@@ -86,7 +86,7 @@ $$
 \bar \nabla_{T} v  = \dfrac{\partial v}{\partial t} + \nabla_{T} v
 $$
 
-这里需要解释一下：$\nabla_{T} v$ 是数据流形上 $v$ 沿着 $T$ 的协变导数，既然我们上面说了 $v$ 有双重身份，那么它可以视作数据流形上某曲线的切矢，$t$ 就是此曲线的参数。非常容易验证这个借助数据流形定义的联络确实是与度规适配的联络，只要验证两个平移的矢量的内积保持恒定即可。设 $\rho(\boldsymbol{x},t)$ 点处的切矢为 $T(\boldsymbol{x},t)$ 两个平移的矢量为 $u (\boldsymbol{x}, t), v(\boldsymbol{x},t)$，计算它们的内积：
+这里需要解释一下：$\nabla_{T} v$ 是数据流形上 $v$ 沿着 $T$ 的协变导数，既然我们上面说了 $v$ 有双重身份，那么它可以视作数据流形上的时变矢量场，$\dfrac{\partial v}{\partial t}$ 是它对曲线的偏导。非常容易验证这个借助数据流形定义的联络确实是与度规适配的联络，只要验证两个平移的矢量的内积保持恒定即可。设 $\rho(\boldsymbol{x},t)$ 点处的切矢为 $T(\boldsymbol{x},t)$ 两个平移的矢量为 $u (\boldsymbol{x}, t), v(\boldsymbol{x},t)$，计算它们的内积：
 
 $$
 \begin{align*}
