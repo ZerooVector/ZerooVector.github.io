@@ -25,9 +25,9 @@ title: Notes of Quantum Field Theory
 下面的笔记完全来自 檀时钠 老师的量子场论课程：
 
 
-- Ep.1：自由和非自由的标量场 [Ep.1](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/offical_qft_1.pdf)
-- Ep.2：路径积分、费曼图 [Ep.2](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/offical_qft_2.pdf)
-- Ep.3：精确传播子、精确顶点函数、重正化 [Ep.3](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/offical_qft_3.pdf)
-- Ep.4：旋量场、矢量场的量子化 [Ep.4](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/offical_qft_4.pdf)
-- Ep.5：Dirac场和电磁场的的路径积分 [Ep.5](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/offical_qft_5.pdf)
-- Ep.6：QED散射振幅、重正化 [Ep.6](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/offical_qft_6.pdf)
+- Ep.1：自由和非自由的标量场 [Ep.1](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/official_qft_1.pdf)
+- Ep.2：路径积分、费曼图 [Ep.2](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/official_qft_2.pdf)
+- Ep.3：精确传播子、精确顶点函数、重正化 [Ep.3](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/official_qft_3.pdf)
+- Ep.4：旋量场、矢量场的量子化 [Ep.4](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/official_qft_4.pdf)
+- Ep.5：Dirac场和电磁场的的路径积分 [Ep.5](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/official_qft_5.pdf)
+- Ep.6：QED散射振幅、重正化 [Ep.6](https://zeroovector.github.io/notes/quantumfieldtheory_pdf/official_qft_6.pdf)
