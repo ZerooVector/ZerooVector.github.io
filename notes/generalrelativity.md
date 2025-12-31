@@ -113,3 +113,17 @@ title: Notes of GeneralRelativity
 - CH 11：时空的因果结构   [CH 11](https://zeroovector.github.io/notes/generalrelativity_pdf/gr_ch11.pdf)
 
 
+### 第十二章：渐进平直时空
+
+- PART2：类光无限远上的对称性  [CH 12-PART2](https://zeroovector.github.io/notes/generalrelativity_pdf/symmetries_at_scri.pdf)
+- PART3：引力能量的非定域性   [CH 12-PART3](https://zeroovector.github.io/notes/generalrelativity_pdf/gravity_energy.pdf)
+
+
+###  第十五章：广义相对论的场论形式
+
+- 有约束系统的哈氏理论   [CH 15-PART2](https://zeroovector.github.io/notes/generalrelativity_pdf/hamiltonian_mechanics.pdf)
+- 拉氏、哈氏经典力学的杂谈；从拉氏力学角度看约束  [CH 15-PART3](https://zeroovector.github.io/notes/generalrelativity_pdf/lagrangian_and_hamiltonian.pdf)
+- 哈氏经典场论   [CH 15-PART4](https://zeroovector.github.io/notes/generalrelativity_pdf/hamiltonian_classical_field.pdf)
+- 广义相对论的哈氏表述   [CH 15-PART5](https://zeroovector.github.io/notes/generalrelativity_pdf/hamiltonian_gr.pdf)
+
+

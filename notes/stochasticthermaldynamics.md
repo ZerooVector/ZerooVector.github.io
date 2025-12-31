@@ -24,6 +24,16 @@ title: Notes of Stochastic ThermalDynamics
 
 - Day 8：勇敢的少年啊，快去创造奇迹！——随机热力学的未来发展   [Day 8](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_day8.pdf) &nbsp;&nbsp;  这一节通过几个小专题，讨论了随机热力学发展的较前沿领域，例如随机热机的熵效率、可观测量的不确定性关系（其实这才是平衡统计里面说的“涨落关系”）、最小耗散控制、鞅论的应用、随机热力学模型和其他模型的类比等等。
 
+---
 
+下面的这一套笔记来自课程 Nonequilibrium Field Theories and Stochastic Dynamics, Prof. Erwin Frey, LMU Munich, Summer Semester 2025 ：
+
+- Ep.1：离散状态空间中的随机过程 [Ep.1](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_1.pdf)
+
+- Ep.2：连续状态空间中的随机过程 [Ep.2](https://zeroovector.github.io/notes/stochasticthermaldynamics_pdf/stm_2.pdf)
+
+- Ep.3：随机热力学的现代方法：昂萨格倒易关系、路径积分、玻色子的相干态路径积分、Wasserstein空间上的梯度流 (没写完，暂缓更新)  
+
+- Ep.4：随机热力学的应用
 
 
