@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/CTNH/";
           
         },
+      },{id: "post-随机热力学",
+        
+          title: "随机热力学",
+        
+        description: "随机热力学笔记",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/STM/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
