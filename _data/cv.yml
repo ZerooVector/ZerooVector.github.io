@@ -162,6 +162,7 @@ cv:
         keywords: "General Relativity, Quantum Field Theory, Statistical Mechanics & Stochastic ThermalDynamics"
       - name: Control Theory 
         icon: fa-solid fa-plane
+        keywords: "Optimal Control, Stochastic Optimal Control, Optimal Transport"
       - name: Machine/Deep Learning Theory
         icon: fa-solid fa-computer
       - name: Minecraft
