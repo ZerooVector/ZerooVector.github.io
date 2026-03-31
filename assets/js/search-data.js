@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-控制理论-新视野",
+        
+          title: "控制理论：新视野",
+        
+        description: "控制理论初见记录",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/CTNH/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
