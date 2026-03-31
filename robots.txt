@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ZerooVector.github.io/al-folio/sitemap.xml
+Sitemap: https://ZerooVector.github.io/sitemap.xml
