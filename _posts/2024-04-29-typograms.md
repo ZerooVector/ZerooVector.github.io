@@ -2,6 +2,7 @@
 layout: post
 title: a post with typograms
 date: 2024-04-29 23:36:10
+published: false
 description: this is what included typograms code could look like
 tags: formatting diagrams
 categories: sample-posts

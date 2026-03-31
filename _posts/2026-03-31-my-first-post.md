@@ -1,0 +1,26 @@
+---
+layout: post
+title: My First Post
+date: 2026-03-31 12:00:00
+description: 控制理论初见记录
+tags: control-theory
+categories: blog
+featured: false
+published: true
+toc:
+  sidebar: left
+---
+
+## 控制系魔法师养成指南 / Control Theory: New Horizon
+
+控制理论开荒日常，致力于重新表述控制理论。
+
+### 第一季
+- 日常篇: 
+  - Day 1: 信号与系统：将时光凝聚成音符 [Ep.1]({{ '/assets/pdf/CTNH_pdf/CTNH_day1.pdf' | relative_url }})
+  - Day 2: 经典控制：跨越百年的汽笛声 [Ep.2]({{ '/assets/pdf/CTNH_pdf/CTNH_day2.pdf' | relative_url }})
+  - Day 3: 现代控制：欲于状态空间起舞 [Ep.3]({{ '/assets/pdf/CTNH_pdf/CTNH_day3.pdf' | relative_url }})
+  - Day 4: 最优控制：弱水三千取一瓢 [Ep.4]({{ '/assets/pdf/CTNH_pdf/CTNH_day4.pdf' | relative_url }})
+- 核心抑制篇:
+  - Ex 1: 核电，轻而易举啊！ [Ex.1]({{ '/assets/pdf/CTNH_pdf/CTNH_EX1.pdf' | relative_url }})
+- 第一季全书: [Season 1]({{ '/assets/pdf/CTNH_pdf/CTNH_S1ALL.pdf' | relative_url }})
