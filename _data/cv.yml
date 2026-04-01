@@ -23,12 +23,12 @@ cv:
 
   sections:
     Education:
-      - institution: Peking University
-        location: Beijing, China
-        # url: https://www.uzh.ch/
-        area: Data Science
-        studyType: PhD Candidate
-        start_date: 2025
+      # - institution: Peking University
+      #   location: Beijing, China
+      #   # url: https://www.uzh.ch/
+      #   area: Data Science
+      #   studyType: PhD Candidate
+      #   start_date: 2025
         # end_date: 1905
         # score: ""
         # courses: "Theory of Relativity"
