@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-量子场论读书笔记",
-        
-          title: "量子场论读书笔记",
-        
-        description: "如题",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/QFT/";
-          
-        },
-      },{id: "post-控制理论-新视野",
+        },{id: "post-控制理论-新视野",
         
           title: "控制理论：新视野",
         
