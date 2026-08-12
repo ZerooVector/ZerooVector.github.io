@@ -13,4 +13,7 @@ toc:
 
 *早晨的花晚上来捡，意思是成年时回忆往事。*
 
+一些本科生课程的二周目，但是显然我没有在本科期间历经一周目。
+
+
 - [经典力学二周目]({{ '/assets/pdf/undergraduate_lecture/classical_mechanics.pdf' | relative_url }})
