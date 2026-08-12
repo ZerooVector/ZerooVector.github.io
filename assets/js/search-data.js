@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-控制理论-新视野",
+        },{id: "post-本科课程二周目合集",
+        
+          title: "本科课程二周目合集",
+        
+        description: "随机热力学笔记",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/undergraduate/";
+          
+        },
+      },{id: "post-控制理论-新视野",
         
           title: "控制理论：新视野",
         
