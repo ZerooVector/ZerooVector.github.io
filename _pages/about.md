@@ -34,15 +34,10 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
+你好，这里是Yuhao Sun（常用ID @林焓是猫猫，你可以认为『林焓』是我的自设）。北京理工大学不知名散人，赛博街溜子。目前对理论物理、Minecraft科技整合包和一些非典型推理谜题（包括但不限于无限流网络小说和Puzzle Hunt）感兴趣，研究方向是生成模型和控制理论在科学问题中的应用。
 
-你好，这里是孙宇皓（常用ID @林焓是猫猫，你可以认为『林焓』是我的自设）。北京理工大学不知名散人，赛博街溜子。目前对理论物理、Minecraft科技整合包和一些非典型推理谜题感兴趣，研究方向是生成模型和控制理论在科学问题中的应用。我致力于在学习的过程中将我接触到的理论直观化，并做直观的研究。我对“直观”的定义主要包含以下三部分：
-- 在现实世界中真实可感的事物是直观的，描述这些事物的理论也是直观的；
-- 如果抽走一个理论中具体的数学表达式，我仍然能使用语言对这个理论的基本假设与建立过程进行描述，且基于这些描述我可以自行重建该理论，那么这个理论是直观的；
-- 如果一个理论不在上述范围之内，但它和某一上述范围之内的理论有相似的数学结构，那么这个理论是直观的。
+作为理论物理激推，我认为比『建立模型』更重要的是找到『建模的直观动机』，而这些动机往往可以被某些并不直观的『数学结构』描述。我希望能在未来尽可能多地洞察有趣的数学结构。
 
+Hi, I’m Yuhao Sun. My research focuses on applying generative models and control theory to scientific problems.
 
-My research focuses on the application of generative models and control theory to scientific problems. I am committed to developing an intuitive understanding of the theories I encounter and conducting research that is inherently intuitive. I define "intuitive" primarily through the following three aspects:
-- Entities that are tangible and perceptible in the real world are intuitive, as are the theories that describe them.
-- A theory is intuitive if, upon stripping away its specific mathematical expressions, I can still verbally articulate its fundamental assumptions and formulation process, and subsequently reconstruct the theory based solely on this description.
-- Even if a theory does not strictly fall into the above categories, it is considered intuitive if it shares a similar mathematical structure with a theory that does.
-
+As an avid fan of theoretical physics, I believe that finding the intuitive motivation behind a model is more important than building the model itself. Such motivations can often be described by mathematical structures that are far from intuitive. I hope to gain insight into as many interesting mathematical structures as possible in the years ahead.
