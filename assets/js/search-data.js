@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "本科课程二周目合集",
         
-        description: "随机热力学笔记",
+        description: "别样的四大力学笔记",
         section: "Posts",
         handler: () => {
           
