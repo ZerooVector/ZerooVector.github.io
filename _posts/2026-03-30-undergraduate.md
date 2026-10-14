@@ -2,7 +2,7 @@
 layout: post
 title: 本科课程二周目合集
 date: 2026-08-12 01:00:00
-description: 随机热力学笔记
+description: 别样的四大力学笔记
 tags: theoretical_physics
 categories: blog
 featured: false
