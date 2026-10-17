@@ -222,3 +222,20 @@ html[data-theme="dark"] {
   color: var(--global-text-color);
   opacity: 0.78;
 }
+
+.research-log-intro {
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--global-code-bg-color);
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  line-height: 1.8;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  strong {
+    color: var(--global-theme-color);
+  }
+}
