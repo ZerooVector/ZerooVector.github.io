@@ -11,4 +11,10 @@ toc:
   sidebar: left
 ---
 
-- **[想法]** [Schrodinger Bridge 逃课指南]({{ '/assets/pdf/mysterious-ideas/Schrodinger%20Bridge%20逃课指南.pdf' | relative_url }})
+<div class="mysterious-note">
+  <div class="mysterious-note-title">
+    <span class="mysterious-note-label mysterious-note-label-idea">[想法]</span>
+    <a href="{{ '/assets/pdf/mysterious-ideas/Schrodinger%20Bridge%20逃课指南.pdf' | relative_url }}">Schrodinger Bridge 逃课指南</a>
+  </div>
+  <p class="mysterious-note-description">如果我不曾见过太阳</p>
+</div>

@@ -165,3 +165,60 @@
     }
   }
 }
+
+.mysterious-note {
+  margin-bottom: 1.25rem;
+}
+
+.mysterious-note-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+
+  a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.mysterious-note-label {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.24em 0.65em;
+  font-size: 0.75em;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.mysterious-note-label-idea {
+  color: #87510a;
+  background-color: #fff0cf;
+}
+
+.mysterious-note-label-paper-note {
+  color: #174c92;
+  background-color: #deedff;
+}
+
+html[data-theme="dark"] {
+  .mysterious-note-label-idea {
+    color: #ffd58a;
+    background-color: #51360f;
+  }
+
+  .mysterious-note-label-paper-note {
+    color: #a7ccff;
+    background-color: #18365d;
+  }
+}
+
+.mysterious-note-description {
+  margin: 0.3rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
