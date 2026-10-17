@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-本科课程二周目合集",
+        },{id: "post-神秘想法合集",
+        
+          title: "神秘想法合集",
+        
+        description: "论文阅读笔记，和偶然冒出的想法",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mysterious-ideas/";
+          
+        },
+      },{id: "post-本科课程二周目合集",
         
           title: "本科课程二周目合集",
         
