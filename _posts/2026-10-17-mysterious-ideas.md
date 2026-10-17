@@ -10,3 +10,5 @@ related_posts: false
 toc:
   sidebar: left
 ---
+
+- **[想法]** [Schrodinger Bridge 逃课指南]({{ '/assets/pdf/mysterious-ideas/Schrodinger%20Bridge%20逃课指南.pdf' | relative_url }})
