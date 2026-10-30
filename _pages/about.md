@@ -38,6 +38,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 作为理论物理激推，我认为比『建立模型』更重要的是找到『建模的直观动机』，而这些动机往往可以被某些并不直观的『数学结构』描述。我希望能在未来尽可能多地洞察有趣的数学结构。
 
+先进AI工具的出现使得我能够跳过理论科研中无聊的工程部分（例如只需要暴力计算的部分和猜猜Bound部分），将精力集中在数学结构的识别、对数学结构的诠释等任务上，或者使用空余时间探索更多领域。在这里，我们可以一起完成一些可能有趣的项目：漫无目的地在观念世界中遨游，寻找那些**遥远的相似性**。
+
 Hi, I’m Yuhao Sun. My research focuses on applying generative models and control theory to scientific problems.
 
 As an avid fan of theoretical physics, I believe that finding the intuitive motivation behind a model is more important than building the model itself. Such motivations can often be described by mathematical structures that are far from intuitive. I hope to gain insight into as many interesting mathematical structures as possible in the years ahead.

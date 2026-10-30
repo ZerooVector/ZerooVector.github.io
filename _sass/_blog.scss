@@ -223,19 +223,109 @@ html[data-theme="dark"] {
   opacity: 0.78;
 }
 
-.research-log-intro {
-  padding: 1rem 1.25rem;
-  margin-bottom: 1.5rem;
-  background-color: var(--global-code-bg-color);
-  border-left: 3px solid var(--global-theme-color);
-  border-radius: 0.25rem;
-  line-height: 1.8;
+.ctnh-hero {
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 2.5rem;
+  background: linear-gradient(135deg, var(--global-code-bg-color), transparent 78%);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 0.4rem;
 
-  p {
-    margin-bottom: 0;
+  h2 {
+    margin: 0.25rem 0 0;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
   }
+}
 
-  strong {
+.ctnh-eyebrow,
+.ctnh-resource-kicker {
+  display: block;
+  margin: 0;
+  color: var(--global-theme-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ctnh-english-title {
+  margin: 0.25rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 1.1rem;
+}
+
+.ctnh-summary {
+  margin: 1rem 0 0;
+  font-size: 1.05rem;
+}
+
+.ctnh-season-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  span {
     color: var(--global-theme-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
   }
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.ctnh-group-title {
+  margin: 1.75rem 0 0.85rem;
+  font-size: 1.2rem;
+}
+
+.ctnh-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 0.85rem;
+}
+
+.ctnh-resource-card,
+.ctnh-season-book {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 1rem 1.1rem;
+  color: var(--global-text-color);
+  text-decoration: none !important;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.45rem;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    color: var(--global-text-color);
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
+  }
+
+  .ctnh-resource-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+
+  .ctnh-resource-action {
+    margin-top: 0.25rem;
+    color: var(--global-theme-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+.ctnh-season-book {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.75rem;
+  background: var(--global-code-bg-color);
 }
