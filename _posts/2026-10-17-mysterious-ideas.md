@@ -18,3 +18,11 @@ toc:
   </div>
   <p class="mysterious-note-description">如果我不曾见过太阳</p>
 </div>
+
+<div class="mysterious-note">
+  <div class="mysterious-note-title">
+    <span class="mysterious-note-label mysterious-note-label-idea">[想法]</span>
+    <a href="{{ '/assets/pdf/mysterious-ideas/doob-h-transform.pdf' | relative_url }}">Doob's H Transform是什么</a>
+  </div>
+  <p class="mysterious-note-description">无论过去，是因为我们不能改变过去；不问将来，是因为将来必然会因为我们而改变</p>
+</div>

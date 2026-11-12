@@ -18,3 +18,5 @@ _早晨的花晚上来捡，意思是成年时回忆往事。_
 - [经典力学二周目]({{ '/assets/pdf/undergraduate_lecture/classical_mechanics.pdf' | relative_url }})
 
 - [电动力学二周目]({{ '/assets/pdf/undergraduate_lecture/em_dynamics.pdf' | relative_url }})
+
+- [统计场论初见]({{ '/assets/pdf/undergraduate_lecture/statistical_field_theory.pdf' | relative_url }})
